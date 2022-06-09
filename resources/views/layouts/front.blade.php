@@ -77,7 +77,15 @@
     <!-- End Facebook Pixel Code -->
 
     @endif
-
+    <style>
+        body {
+            @if($currentLang->rtl == 1)
+                font-family: 'Cairo', sans-serif;
+            @else
+                font-family: 'Inter', sans-serif;
+        @endif
+}
+    </style>
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{$setting->favicon}}" type="image/x-icon">
     <link rel="icon" href="{{$setting->favicon}}" type="image/x-icon">

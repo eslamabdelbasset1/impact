@@ -90,7 +90,7 @@ class ProjectController extends Controller
     public function update(ProjectEditRequest $request, Project $project)
     {
         $old_video = $request->old_video;
-
+        unlink("images/video/".$old_video);
         $input = $request->all();
         if ($file = $request->file('photo_id')) {
 
@@ -99,7 +99,7 @@ class ProjectController extends Controller
             $photo = Photo::create(['file'=>$name]);
             $input['photo_id'] = $photo->id;
         }
-        unlink("images/video/".$old_video);
+
 
         $project->update($input);
 

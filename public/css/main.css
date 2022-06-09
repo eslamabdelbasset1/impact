@@ -684,6 +684,7 @@
 .project-box[data-v-5cab565f] {
     position: relative;
     max-height: 90vh;
+    margin-bottom: 10px;
 }
 
 .project-box__overlay[data-v-5cab565f] {

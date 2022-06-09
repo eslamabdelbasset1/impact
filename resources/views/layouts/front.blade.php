@@ -642,6 +642,5 @@ class="home page-template-default page page-id-1531 material wpb-js-composer js-
     <script type='text/javascript' src='https://www.finalkid.com/wp-content/plugins/js_composer_salient/assets/js/dist/js_composer_front.min.js?ver=6.0.5' id='wpb_composer_front_js-js'></script>
     <script type='text/javascript' defer src='https://www.finalkid.com/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.8.7' id='mc4wp-forms-api-js'></script>
     <script src='https://stats.wp.com/e-202223.js' defer></script>
-
 </body>
 </html>

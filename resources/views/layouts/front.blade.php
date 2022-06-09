@@ -129,29 +129,8 @@
     <link rel='dns-prefetch' href='//c0.wp.com' />
     <link rel="alternate" type="application/rss+xml" title="Final Kid Films &raquo; Feed" href="https://www.finalkid.com/feed/" />
     <link rel="alternate" type="application/rss+xml" title="Final Kid Films &raquo; Comments Feed" href="https://www.finalkid.com/comments/feed/" />
-    <script type="text/javascript">
-        window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.finalkid.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0"}};
-        /*! This file is auto-generated */
-        !function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
-    </script>
-    <style type="text/css">
-        img.wp-smiley,
-        img.emoji {
-            display: inline !important;
-            border: none !important;
-            box-shadow: none !important;
-            height: 1em !important;
-            width: 1em !important;
-            margin: 0 0.07em !important;
-            vertical-align: -0.1em !important;
-            background: none !important;
-            padding: 0 !important;
-        }
-    </style>
+
     <link rel='stylesheet' id='wp-block-library-css'  href='https://c0.wp.com/c/6.0/wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all' />
-    <style id='wp-block-library-inline-css' type='text/css'>
-        .has-text-align-justify{text-align:justify;}
-    </style>
     <link rel='stylesheet' id='mediaelement-css'  href='https://c0.wp.com/c/6.0/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css' type='text/css' media='all' />
     <link rel='stylesheet' id='wp-mediaelement-css'  href='https://c0.wp.com/c/6.0/wp-includes/js/mediaelement/wp-mediaelement.min.css' type='text/css' media='all' />
     <style id='global-styles-inline-css' type='text/css'>
@@ -159,37 +138,7 @@
     <link rel='stylesheet' id='contact-form-7-css'  href='{{asset('css/libs/styles.css')}}' type='text/css' media='all' />
     <link rel='stylesheet' id='nectar-slider-css'  href='{{asset('css/libs/nectar-slider.css')}}' type='text/css' media='all' />
     <link rel='stylesheet' id='nectar-portfolio-css'  href='{{asset('css/libs/portfolio.css')}}' type='text/css' media='all' />
-    <style id='salient-social-inline-css' type='text/css'>
-        .sharing-default-minimal .nectar-love.loved,
-        body .nectar-social[data-color-override="override"].fixed > a:before,
-        body .nectar-social[data-color-override="override"].fixed .nectar-social-inner a,
-        .sharing-default-minimal .nectar-social[data-color-override="override"] .nectar-social-inner a:hover {
-            background-color: #00e1af;
-        }
-        .nectar-social.hover .nectar-love.loved,
-        .nectar-social.hover > .nectar-love-button a:hover,
-        .nectar-social[data-color-override="override"].hover > div a:hover,
-        #single-below-header .nectar-social[data-color-override="override"].hover > div a:hover,
-        .nectar-social[data-color-override="override"].hover .share-btn:hover,
-        .sharing-default-minimal .nectar-social[data-color-override="override"] .nectar-social-inner a {
-            border-color: #00e1af;
-        }
-        #single-below-header .nectar-social.hover .nectar-love.loved i,
-        #single-below-header .nectar-social.hover[data-color-override="override"] a:hover,
-        #single-below-header .nectar-social.hover[data-color-override="override"] a:hover i,
-        #single-below-header .nectar-social.hover .nectar-love-button a:hover i,
-        .nectar-love:hover i,
-        .hover .nectar-love:hover .total_loves,
-        .nectar-love.loved i,
-        .nectar-social.hover .nectar-love.loved .total_loves,
-        .nectar-social.hover .share-btn:hover,
-        .nectar-social[data-color-override="override"].hover .nectar-social-inner a:hover,
-        .nectar-social[data-color-override="override"].hover > div:hover span,
-        .sharing-default-minimal .nectar-social[data-color-override="override"] .nectar-social-inner a:not(:hover) i,
-        .sharing-default-minimal .nectar-social[data-color-override="override"] .nectar-social-inner a:not(:hover) {
-            color: #00e1af;
-        }
-    </style>
+
     <link rel='stylesheet' id='mc4wp-form-themes-css'  href='https://www.finalkid.com/wp-content/plugins/mailchimp-for-wp/assets/css/form-themes.css?ver=4.8.7' type='text/css' media='all' />
     <link rel='stylesheet' id='font-awesome-css'  href='https://www.finalkid.com/wp-content/themes/salient/css/font-awesome.min.css?ver=4.6.4' type='text/css' media='all' />
     <link rel='stylesheet' id='salient-grid-system-css'  href='https://www.finalkid.com/wp-content/themes/salient/css/grid-system.css?ver=11.0.2' type='text/css' media='all' />
@@ -267,9 +216,6 @@
             }
 
         }
-
-
-
         /* Fix scaling in big screen mode*/
         .portfolio-items .col .work-info .vert-center .custom-content {
             height:auto;
@@ -348,17 +294,13 @@
             border-bottom: none;
         }
     </style>
-    <link rel='stylesheet' id='redux-google-fonts-salient_redux-css'  href='https://fonts.googleapis.com/css?family=Archivo%3A400%2C600&#038;ver=1579702516' type='text/css' media='all' />
+
     <link rel='stylesheet' id='jetpack_css-css'  href='https://c0.wp.com/p/jetpack/11.0/css/jetpack.css' type='text/css' media='all' />
     <script type='text/javascript' src='https://c0.wp.com/c/6.0/wp-includes/js/jquery/jquery.min.js' id='jquery-core-js'></script>
     <script type='text/javascript' src='https://c0.wp.com/c/6.0/wp-includes/js/jquery/jquery-migrate.min.js' id='jquery-migrate-js'></script>
-    <link rel="https://api.w.org/" href="https://www.finalkid.com/wp-json/" /><link rel="alternate" type="application/json" href="https://www.finalkid.com/wp-json/wp/v2/pages/1531" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.finalkid.com/xmlrpc.php?rsd" />
-    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.finalkid.com/wp-includes/wlwmanifest.xml" />
-    <meta name="generator" content="WordPress 6.0" />
-    <link rel='shortlink' href='https://www.finalkid.com/' />
-    <link rel="alternate" type="application/json+oembed" href="https://www.finalkid.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.finalkid.com%2F" />
-    <link rel="alternate" type="text/xml+oembed" href="https://www.finalkid.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.finalkid.com%2F&#038;format=xml" />
-    <style>img#wpstats{display:none}</style>
+
+    <style>
+        img#wpstats{display:none}</style>
     <script type="text/javascript"> var root = document.getElementsByTagName( "html" )[0]; root.setAttribute( "class", "js" ); </script><!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127571880-1"></script>
     <script>
@@ -379,13 +321,16 @@
             'jetpack-lazy-images-js-enabled'
         );
     </script>
-    <link rel="icon" href="https://i0.wp.com/www.finalkid.com/wp-content/uploads/2018/01/cropped-Schermafbeelding-2018-01-17-om-18.27.02.png?fit=32%2C32&#038;ssl=1" sizes="32x32" />
-    <link rel="icon" href="https://i0.wp.com/www.finalkid.com/wp-content/uploads/2018/01/cropped-Schermafbeelding-2018-01-17-om-18.27.02.png?fit=192%2C192&#038;ssl=1" sizes="192x192" />
-    <link rel="apple-touch-icon" href="https://i0.wp.com/www.finalkid.com/wp-content/uploads/2018/01/cropped-Schermafbeelding-2018-01-17-om-18.27.02.png?fit=180%2C180&#038;ssl=1" />
-    <meta name="msapplication-TileImage" content="https://i0.wp.com/www.finalkid.com/wp-content/uploads/2018/01/cropped-Schermafbeelding-2018-01-17-om-18.27.02.png?fit=270%2C270&#038;ssl=1" />
-    <style type="text/css" data-type="vc_custom-css">.hiderow12{
+
+    <style type="text/css" data-type="vc_custom-css">
+        .hiderow12{
             visibility:hidden !important;
-        }</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+        }
+    </style>
+    <noscript>
+        <style> .wpb_animate_when_almost_visible { opacity: 1; }
+        </style>
+    </noscript>
 
 </head>
 <body class="@if($currentLang->rtl == 1) rtl @endif"
@@ -650,21 +595,9 @@ class="home page-template-default page page-id-1531 material wpb-js-composer js-
         })();
 
     </script>
-    <script type='text/javascript' src='https://c0.wp.com/p/jetpack/11.0/_inc/build/photon/photon.min.js' id='jetpack-photon-js'></script>
-    <script type='text/javascript' src='https://c0.wp.com/c/6.0/wp-includes/js/dist/vendor/regenerator-runtime.min.js' id='regenerator-runtime-js'></script>
-    <script type='text/javascript' src='https://c0.wp.com/c/6.0/wp-includes/js/dist/vendor/wp-polyfill.min.js' id='wp-polyfill-js'></script>
-    <script type='text/javascript' id='contact-form-7-js-extra'>
-        /* <![CDATA[ */
-        var wpcf7 = {"api":{"root":"https:\/\/www.finalkid.com\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
-        /* ]]> */
-    </script>
-    <script type='text/javascript' src='https://www.finalkid.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.5.6.1' id='contact-form-7-js'></script>
+
     <script type='text/javascript' src="{{asset('js/libs/anime.js')}}" id='anime-js'></script>
-    <script type='text/javascript' id='nectar-slider-js-extra'>
-        /* <![CDATA[ */
-        var nectar_theme_info = {"using_salient":"true"};
-        /* ]]> */
-    </script>
+
     <script type='text/javascript' src="{{asset('js/libs/nectar-slider.js')}}" id='nectar-slider-js'></script>
     <script type='text/javascript' src='https://www.finalkid.com/wp-content/plugins/salient-portfolio/js/third-party/imagesLoaded.min.js?ver=4.1.4' id='imagesLoaded-js'></script>
     <script type='text/javascript' src='https://www.finalkid.com/wp-content/plugins/salient-portfolio/js/third-party/isotope.min.js?ver=7.6' id='isotope-js'></script>
@@ -679,13 +612,7 @@ class="home page-template-default page page-id-1531 material wpb-js-composer js-
         var nectarLove = {"ajaxurl":"https:\/\/www.finalkid.com\/wp-admin\/admin-ajax.php","postID":"1531","rooturl":"https:\/\/www.finalkid.com","loveNonce":"1d28582cf4"};
         /* ]]> */
     </script>
-    <script type='text/javascript' src='https://www.finalkid.com/wp-content/plugins/salient-social/js/salient-social.js?ver=1.1' id='salient-social-js'></script>
-    <script type='text/javascript' src='https://www.finalkid.com/wp-content/themes/salient/js/third-party/jquery.easing.js?ver=1.3' id='jquery-easing-js'></script>
-    <script type='text/javascript' src='https://www.finalkid.com/wp-content/themes/salient/js/third-party/jquery.mousewheel.js?ver=3.1.13' id='jquery-mousewheel-js'></script>
-    <script type='text/javascript' src='https://www.finalkid.com/wp-content/themes/salient/js/priority.js?ver=11.0.2' id='nectar_priority-js'></script>
-    <script type='text/javascript' src='https://www.finalkid.com/wp-content/themes/salient/js/third-party/transit.js?ver=0.9.9' id='nectar-transit-js'></script>
-    <script type='text/javascript' src='https://www.finalkid.com/wp-content/themes/salient/js/third-party/waypoints.js?ver=4.0.1' id='nectar-waypoints-js'></script>
-    <script type='text/javascript' src='https://www.finalkid.com/wp-content/themes/salient/js/third-party/modernizr.js?ver=2.6.2' id='modernizer-js'></script>
+
     <script type='text/javascript' src='https://www.finalkid.com/wp-content/themes/salient/js/third-party/hoverintent.js?ver=1.9' id='hoverintent-js'></script>
     <script type='text/javascript' src='https://www.finalkid.com/wp-content/themes/salient/js/third-party/magnific.js?ver=7.0.1' id='magnific-js'></script>
     <script type='text/javascript' src='https://www.finalkid.com/wp-content/plugins/salient-core/js/third-party/touchswipe.min.js?ver=1.0' id='touchswipe-js'></script>

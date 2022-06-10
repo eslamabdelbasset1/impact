@@ -98,6 +98,7 @@
     <link href="{{ asset('css/libs/fontawesome.min.css')}}" type="text/css" rel="stylesheet">
     <link href="{{ asset('css/front/owl.carousel.min.css')}}" type="text/css" rel="stylesheet">
     <link href="{{ asset('css/front/venor.css') }}" type="text/css" rel="stylesheet">
+    <link rel='stylesheet' id='salient-grid-system-css'  href='{{asset('css/grid-system.css')}}' type='text/css' media='all' />
     <link href="{{ asset('css/main.css') }}" type="text/css" rel="stylesheet">
     <link rel="preload" href="{{asset('_nuxt/9908ea3.js')}}" as="script" />
     <link rel="preload" href="{{asset('_nuxt/196c1c5.js')}}" as="script" />
@@ -119,7 +120,6 @@
             {!! $setting->custom_css !!}
         </style>
     @endif
-
 
 </head>
 <body class="common-front @if($currentLang->rtl == 1) rtl @endif" @if($currentLang->rtl == 1) dir="rtl" @endif>
@@ -192,11 +192,11 @@
 
                 </div>
 
-                <div class="header__action header__action--signin">
-                    <a class="header__action-btn header__action-btn--start-project" href="{{$headerfooter->sidebar_description}}">
-                        <span>{{$headerfooter->sidebar_title}}</span>
-                    </a>
-                </div>
+{{--                <div class="header__action header__action--signin">--}}
+{{--                    <a class="header__action-btn header__action-btn--start-project" href="{{$headerfooter->sidebar_description}}">--}}
+{{--                        <span>{{$headerfooter->sidebar_title}}</span>--}}
+{{--                    </a>--}}
+{{--                </div>--}}
             </div>
 
             <button class="header__btn__venor" type="button">
@@ -206,8 +206,6 @@
             </button>
         </div>
     </header>
-
-
 
     @yield('content')
 
@@ -327,7 +325,8 @@
     <script src="{{ asset('_nuxt/196c1c5.js')}}" defer=""></script>
     <script src="{{ asset('_nuxt/e3c5ee1.js')}}" defer=""></script>
     <script src="{{ asset('_nuxt/d094e50.js')}}" defer=""></script>
-
+    <script type='text/javascript' src='{{asset('js/libs/superfish.js')}}' id='superfish-js'></script>
+    <script type='text/javascript' src='{{asset('js/libs/init.js')}}' id='nectar-frontend-js'></script>
     @include('cookieConsent::index')
 
 
@@ -356,5 +355,7 @@
     @endif
 
     @yield('scripts')
+
+
 </body>
 </html>

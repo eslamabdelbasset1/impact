@@ -92,7 +92,7 @@
 					o = getOptions($this);
 
 				if($(this).parents('.megamenu').length > 0) return;
-
+					
 				clearTimeout(o.sfTimer);
 				$this.siblings().superfish('hide').end().superfish('show');
 			},
@@ -165,14 +165,14 @@
 
 					//megamenu removes transparent option
 					if($('#header-outer[data-megamenu-rt="1"]').length > 0 && $('#header-outer[data-transparent-header="true"]').length > 0) {
-
+						
 						if($('#header-outer.scrolled-down').length == 0 && $('#header-outer.small-nav').length == 0 && $('#header-outer.detached').length == 0 && $('#header-outer.fixed-menu').length == 0) {
 							$('#header-outer').addClass('transparent');
 						}
 						if($('#header-outer[data-permanent-transparent="1"][data-transparent-header="true"]').length > 0) {
 							$('#header-outer').addClass('transparent');
 						}
-
+					
 					}
 				}
 				return this;
@@ -191,18 +191,18 @@
 
 				//megamenu removes transparent option
 				if($('#header-outer[data-megamenu-rt="1"]').length > 0 && $(this).hasClass('megamenu') && $('#header-outer').attr('data-transparent-header') == 'true' ) {
-
+					
 					$('#header-outer').addClass('no-transition');
-					$('#header-outer').removeClass('transparent');
-
+					$('#header-outer').removeClass('transparent');	
+				
 				}
-
+				
 				o.onBeforeShow.call($ul);
 
 
-				//make sure the ul has space
+				//make sure the ul has space 
 				if(!$($ul).parents('li').hasClass('megamenu') && !$($ul).parents('ul').hasClass('sub-menu') && $ul.offset()) {
-
+					
 					$ul.addClass('temp-hidden-display');
 					var docW = $("#top .container").width();
 					var elm = $ul;
@@ -217,9 +217,9 @@
 			            $ul.parents('li').removeClass('edge');
 			        }
 					$ul.removeClass('temp-hidden-display');
-
+					
 				}
-
+				
 				if(o.dropdownStyle == 'minimal') {
 					o.onShow.call($ul);
 				} else {
@@ -227,16 +227,16 @@
 						o.onShow.call($ul);
 					});
 				}
-
+				
 				//show on left class
 				if( $ul.length > 0 && $ul.parents('.sub-menu').length > 0 && $ul.parents('.sf-menu').length > 0 ) {
 					if($ul.offset().left + $ul.outerWidth() > $(window).width()) {
 						$ul.addClass('on-left-side');
 						$ul.find('ul').addClass('on-left-side');
-					}
+					} 
 				}
 
-
+				
 				return this;
 			},
 			destroy: function () {

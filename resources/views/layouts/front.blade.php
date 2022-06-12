@@ -89,10 +89,14 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{$setting->favicon}}" type="image/x-icon">
     <link rel="icon" href="{{$setting->favicon}}" type="image/x-icon">
-
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="{{$setting->font}}" rel="stylesheet">
+    @if($currentLang->rtl == 1)
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    @else
+        <link href="{{$setting->font}}" rel="stylesheet">
+    @endif
     <!-- Styles -->
     <link href="{{ asset('css/front/bootstrap.min.css') }}" type="text/css" rel="stylesheet">
     <link href="{{ asset('css/libs/fontawesome.min.css')}}" type="text/css" rel="stylesheet">

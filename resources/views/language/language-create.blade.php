@@ -1,9 +1,5 @@
-
-
 @extends('layouts.admin')
-
 @section('content')
-
 <!-- Begin Page Content -->
 <div class="container-fluid">
 
@@ -22,11 +18,11 @@
 
                 @if ($message = Session::get('language_success'))
                     <div class="alert alert-success alert-block">
-                        <button type="button" class="close" data-dismiss="alert"><i class="fas fa-times"></i></button>    
+                        <button type="button" class="close" data-dismiss="alert"><i class="fas fa-times"></i></button>
                         <strong>{{ $message }}</strong>
                     </div>
                 @endif
-   
+
 
                 @include('includes.form-errors')
 
@@ -55,7 +51,7 @@
 
                                     <div class="form-group">
                                         <strong>{{clean( trans('niva-backend.is_default') , array('Attr.EnableID' => true))}}</strong>
-                                        
+
                                         <div class="form-check">
                                           <input class="form-check-input" type="radio" name="is_default" id="is_default1" value="1">
                                           <label class="form-check-label" for="is_default1"> {{clean( trans('niva-backend.yes') , array('Attr.EnableID' => true))}}  </label>
@@ -65,13 +61,13 @@
                                           <input class="form-check-input" type="radio" name="is_default" id="is_default2" value="0">
                                           <label class="form-check-label" for="is_default2"> {{clean( trans('niva-backend.no') , array('Attr.EnableID' => true))}}  </label>
                                         </div>
-                                        
+
                                     </div>
 
 
                                     <div class="form-group">
                                         <strong>{{clean( trans('niva-backend.ltr_rtl') , array('Attr.EnableID' => true))}}</strong>
-                                        
+
                                         <div class="form-check">
                                           <input class="form-check-input" type="radio" name="rtl" id="rtl2" value="0">
                                           <label class="form-check-label" for="rtl2"> LTR  </label>
@@ -81,26 +77,14 @@
                                           <input class="form-check-input" type="radio" name="rtl" id="rtl1" value="1">
                                           <label class="form-check-label" for="rtl1"> RTL  </label>
                                         </div>
-
-                                        
-                                        
                                     </div>
-
-                       
-          
-
-                              
-
                                 </div>
-  
-
                                 <div class="col-xs-12 col-sm-12 col-md-12 text-right">
                                     <button type="submit" class="btn btn-primary">{{clean( trans('niva-backend.create') , array('Attr.EnableID' => true))}}</button>
                                 </div>
                             </div>
-
                         </form>
-                        
+
                     </div>
                 </div>
 

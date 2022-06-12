@@ -9,13 +9,13 @@
                 @foreach($sliders as $slider)
 {{--                    {{dd($slider)}}--}}
                     <div id="dirty-talk" class="standard relative project-box project-hover" data-v-5cab565f="" data-v-e6de1118="" data-v-72b3940d="">
-                        <a href="">
+                        <a href="{{asset('/images/media/' . $slider->photo->file)}}">
                             <video  loop="loop" muted="" playsinline="" autoplay="autoplay" preload="none" class="video video-thumbnail" style="width: 100%; margin-top: -4%">
                                 <source src="{{$slider->photo ? '/images/media/' . $slider->photo->file : '/img/200x200.png'}}"/>
                             </video>
                         </a>
                         <div class="info" data-v-c3ddceb6="" data-v-5cab565f="">
-                            <a href="#" class="title" data-v-c3ddceb6="">
+                            <a href="{{asset('/images/media/' . $slider->photo->file)}}" class="title" data-v-c3ddceb6="">
                                 <svg width="7" height="8" viewbox="0 0 7 8" fill="none" xmlns="http://www.w3.org/2000/svg" class="title__svg title__svg--play" data-v-c3ddceb6="">
                                     <path
                                         d="M0.929688 7.60938C1.09375 7.60938 1.23828 7.55078 1.41797 7.44531L6.03125 4.77734C6.36719 4.58203 6.50781 4.42969 6.50781 4.18359C6.50781 3.9375 6.36719 3.78906 6.03125 3.58984L1.41797 0.921875C1.23828 0.816406 1.09375 0.757812 0.929688 0.757812C0.609375 0.757812 0.382812 1.00391 0.382812 1.39062V6.97656C0.382812 7.36719 0.609375 7.60938 0.929688 7.60938Z"
@@ -26,8 +26,9 @@
                                 <span data-v-c3ddceb6="">{{$slider->heading1}} </span>
                             </a>
                             <div class="author-category" data-v-c3ddceb6="">
-                                <span class="author-category__author" data-v-c3ddceb6=""><a href="/artist/stink-rising-dylan-holmes-williams" class="author-link" data-v-c3ddceb6="">{{$slider->heading2}} </a> / </span>
-                                <span class="author-category__category" data-v-c3ddceb6="">Commercial </span>
+                                <span class="author-category__author" data-v-c3ddceb6="">
+                                    <a href="/artist/stink-rising-dylan-holmes-williams" class="author-link" data-v-c3ddceb6="">{{$slider->heading2}} </a>
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -85,7 +86,9 @@
 
 
 
-                                                <a href="https://player.vimeo.com/video/379784569" data-color-override="false" data-style="default" data-parent-hover="" data-font-style="p" data-color="transparent-accent-color" class="nectar-button large nectar_video_lightbox pp"><span>Watch our reel</span></a><div class="divider-wrap" data-alignment="default"><div style="height: 40px;" class="divider"></div></div>
+                                                <a href="{{asset('/images/media/' . $slider->photo->file)}}" data-color-override="false" data-style="default" data-parent-hover="" data-font-style="p"
+                                                   data-color="transparent-accent-color" class="nectar-button large nectar_video_lightbox pp"><span>Watch our reel</span></a><div
+                                                    class="divider-wrap" data-alignment="default"><div style="height: 40px;" class="divider"></div></div>
                                             </div>
                                         </div>
                                     </div>
@@ -126,7 +129,7 @@
                                           <span data-v-c3ddceb6="">{{$project->title}}</span>
                                       </a>
                                       <div class="author-category" data-v-c3ddceb6="">
-                                          <span class="author-category__author" data-v-c3ddceb6=""><a href="/artist/stink-rising-wesley-joseph" class="author-link" data-v-c3ddceb6="">{{$project->date}}</a> / </span>
+                                          <span class="author-category__author" data-v-c3ddceb6=""><a href="{{asset('/images/video/' . $project->photo->file)}}" class="author-link" data-v-c3ddceb6="">{{$project->date}}</a> / </span>
                                           <span class="author-category__category" data-v-c3ddceb6="">Music Video</span>
                                       </div>
                                   </div>

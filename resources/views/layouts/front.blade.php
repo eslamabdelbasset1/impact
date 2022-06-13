@@ -71,11 +71,18 @@
     fbq('init', '{{$setting->facebook_pixel}}');
     fbq('track', 'PageView');
     </script>
-    <noscript><img height="1" width="1" style="display:none"
+    <noscript>
+        <img height="1" width="1" style="display:none"
     src="https://www.facebook.com/tr?id={{$setting->facebook_pixel}}&ev=PageView&noscript=1"
     /></noscript>
     <!-- End Facebook Pixel Code -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
 
+    @endif
+    @if($currentLang->rtl == 1)
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    @else
+        <link href="{{$setting->font}}" rel="stylesheet">
     @endif
     <style>
         body {
@@ -90,16 +97,13 @@
     <link rel="shortcut icon" href="{{$setting->favicon}}" type="image/x-icon">
     <link rel="icon" href="{{$setting->favicon}}" type="image/x-icon">
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="{{$setting->font}}" rel="stylesheet">
-    @if($currentLang->rtl == 1)
-        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
-    @else
-        <link href="{{$setting->font}}" rel="stylesheet">
-    @endif
+{{--    <link rel="preconnect" href="https://fonts.gstatic.com">--}}
+{{--    <link href="{{$setting->font}}" rel="stylesheet">--}}
+
     <!-- Styles -->
     <link href="{{ asset('css/front/bootstrap.min.css') }}" type="text/css" rel="stylesheet">
-    <link href="{{ asset('css/libs/fontawesome.min.css')}}" type="text/css" rel="stylesheet">
+    <link href="{{ asset('css/fontawesome-free/css/all.min.css')}}" type="text/css" rel="stylesheet">
+    <link href="{{ asset('css/fontawesome-free/css/line-awesome.min.css')}}" type="text/css" rel="stylesheet">
     <link href="{{ asset('css/front/owl.carousel.min.css')}}" type="text/css" rel="stylesheet">
     <link href="{{ asset('css/front/venor.css') }}" type="text/css" rel="stylesheet">
     <link rel='stylesheet' id='salient-grid-system-css'  href='{{asset('css/grid-system.css')}}' type='text/css' media='all' />

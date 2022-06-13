@@ -54,13 +54,6 @@
                                         <button type="submit" class="btn btn-primary btn-user btn-block">
                                             {{ __('Login') }}
                                         </button>
-
-                                        <hr>
-
-                                        <a  href="{{ url('auth/facebook') }}" class="btn btn-facebook btn-user btn-block">
-                                            <i class="fab fa-facebook-f fa-fw"></i>{{clean( trans('niva-backend.login_facebook') , array('Attr.EnableID' => true))}}
-                                        </a>
-
                                     </form>
                                     <hr>
                                     <div class="text-center">
@@ -68,10 +61,6 @@
                                             <a class="small" href="{{ route('password.request') }}"> {{ __('Forgot Your Password?') }}</a>
                                         @endif
                                     </div>
-                                    <div class="text-center">
-                                        <a class="small" href="{{ route('register') }}">{{clean( trans('niva-backend.create_acc') , array('Attr.EnableID' => true))}}</a>
-                                    </div>
-
                                 </div>
 
                             </div>
@@ -82,10 +71,5 @@
             </div>
 
         </div>
-
     </div>
-
-
-
-
 @endsection

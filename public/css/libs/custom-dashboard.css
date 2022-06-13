@@ -148,3 +148,10 @@ body#page-top form .form-group strong {
         overflow-x: auto;
     }
 }
+
+@media(max-width: 760px) {
+    #accordionSidebar  a  .sidebar-brand-icon img
+    {
+        width: 60% !important;
+    }
+}

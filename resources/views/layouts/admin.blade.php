@@ -11,7 +11,8 @@
 
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <link href="{{asset('css/libs/bootstrap4.min.css')}}" rel="stylesheet">
-    <link href="{{asset('css/libs/fontawesome.min.css')}}" rel="stylesheet">
+    <link href="{{asset('css/fontawesome-free/css/all.min.css')}}" rel="stylesheet">
+    <link href="{{asset('css/fontawesome-free/css/line-awesome.min.css')}}" rel="stylesheet">
     <link href="{{asset('css/libs/custom-dashboard.css')}}" rel="stylesheet">
 
     @yield('styles')
@@ -28,12 +29,11 @@
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#0">
-                <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fab fa-github"></i>
+
+                <div class="sidebar-brand-icon">
+                    <img src="{{asset('images/logo/impact-logo.png')}}" alt="" style="width: 120%; float: left">
                 </div>
-                <div class="sidebar-brand-text mx-3">
-                    <img src="{{asset('images/logo/impact.png')}}" alt="" style="width: 60%; float: left">
-                </div>
+                <div class="sidebar-brand-text mx-3">Impact<sup>Studios</sup></div>
             </a>
 
             <!-- Divider -->
@@ -156,7 +156,7 @@
                 </a>
                 <div id="collapseElements" class="collapse"  data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                    	<a class="collapse-item" href="{{ route('slider.index') }}?language=@php echo $lang->code; @endphp">Manage slider </a>
+                    	<a class="collapse-item" href="{{ route('slider.index') }}?language=@php echo $lang->code; @endphp">Manage Home </a>
 
 
                     	<a class="collapse-item" href="{{ route('service.index') }}?language=@php echo $lang->code; @endphp">Manage services</a>

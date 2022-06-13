@@ -134,17 +134,18 @@
 
     <header class="header">
         <div class="header__content__venor">
-            <div class="header__logo">
-{{--                <a href="{{url('/')}}" title="{{$setting->title}}">--}}
-{{--                    <img width="105" height="22" class="img-fluid logo-front"--}}
-{{--                         src="{{$setting->photo ? '/images/media/' . $setting->photo->file : '/img/200x200.png'}}" alt="logo">--}}
-{{--                </a>--}}
-                <div class="sidebar-brand-icon">
-                    <img src="{{asset('images/logo/impact-logo.png')}}" alt="" style="width: 120%; float: left">
+            <a href="{{url('/')}}" title="{{$setting->title}}">
+                <div class="header__logo">
+    {{--                <a href="{{url('/')}}" title="{{$setting->title}}">--}}
+    {{--                    <img width="105" height="22" class="img-fluid logo-front"--}}
+    {{--                         src="{{$setting->photo ? '/images/media/' . $setting->photo->file : '/img/200x200.png'}}" alt="logo">--}}
+    {{--                </a>--}}
+                        <div class="sidebar-brand-icon">
+                            <img src="{{asset('images/logo/impact-logo.png')}}" alt="" style="width: 120%; float: left">
+                        </div>
+                        <div class="sidebar-brand-text mx-3">Impact<sup>Studios</sup></div>
                 </div>
-                <div class="sidebar-brand-text mx-3">Impact<sup>Studios</sup></div>
-            </div>
-
+            </a>
             <form action="{{ route('search') }}" class="header__search__venor" method="GET">
                 <input id="search" type="text" name="term" placeholder="{{clean( trans('niva-backend.search_text') , array('Attr.EnableID' => true))}}" autocomplete="off">
                 <button type="submit"><i class="fas fa-search"></i></button>

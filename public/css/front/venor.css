@@ -110,9 +110,23 @@ body::-webkit-scrollbar-thumb {
     text-transform: uppercase;
     letter-spacing: .05rem;
     z-index: 1;
-    color: white;
+    color: white !important;
 }
+@media screen and (max-width: 760px) {
+    .header__logo img {
+        width: 130% !important;
+        height: 40px;
+        display: block;
+    }
 
+    .header__logo .sidebar-brand-text{
+        height: 4.375rem;
+        text-decoration: none;
+        font-size: 0.6rem;
+        padding: 2rem 0rem;
+
+    }
+}
 
 .header__actions__venor {
     display: inline-flex;

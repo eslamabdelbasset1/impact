@@ -31,7 +31,7 @@
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#0">
 
                 <div class="sidebar-brand-icon">
-                    <img src="{{asset('images/logo/impact-logo.png')}}" alt="" style="width: 120%; float: left">
+                    <img src="{{asset('images/logo/impact-logo.png')}}" alt="">
                 </div>
                 <div class="sidebar-brand-text mx-3">Impact<sup>Studios</sup></div>
             </a>

@@ -8,6 +8,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Impact Studios Admin</title>
+    <link rel="shortcut icon" href="{{asset('images/logo/impact-logo.png')}}" type="image/x-icon">
+
 
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <link href="{{asset('css/libs/bootstrap4.min.css')}}" rel="stylesheet">

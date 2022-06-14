@@ -74,7 +74,7 @@ class SliderController extends Controller
     public function update(SliderRequest $request, Slider $slider)
     {
         $old_image = $request->old_image;
-        unlink("images/video/". $old_image);
+//        unlink("images/video/". $old_image);
 
         $input = $request->all();
         if ($file = $request->file('photo_id')) {

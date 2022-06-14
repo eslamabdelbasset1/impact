@@ -22,7 +22,7 @@
                                     <form method="POST" action="{{ route('login') }}" class="user">
                                         @csrf
                                         <div class="form-group">
-                                            <input id="email" type="email" class="form-control form-control-user @error('email') is-invalid @enderror" name="email" value="contact@lucian.host" required autocomplete="email" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="{{ __('E-Mail Address') }}" autofocus>
+                                            <input id="email" type="email" class="form-control form-control-user @error('email') is-invalid @enderror" name="email" required autocomplete="email" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="{{ __('E-Mail Address') }}" autofocus>
 
                                             @error('email')
                                             <span class="invalid-feedback" role="alert">
@@ -31,7 +31,8 @@
                                             @enderror
                                         </div>
                                         <div class="form-group">
-                                            <input id="password" placeholder="{{ __('Password') }}" type="password" id="exampleInputPassword"  class="form-control form-control-user @error('password') is-invalid @enderror" name="password" value="niva12345" required autocomplete="current-password">
+                                            <input id="password" placeholder="{{ __('Password') }}" type="password" id="exampleInputPassword"  class="form-control form-control-user @error('password') is-invalid @enderror"
+                                                   name="password" required autocomplete="current-password" >
 
                                             @error('password')
                                             <span class="invalid-feedback" role="alert">

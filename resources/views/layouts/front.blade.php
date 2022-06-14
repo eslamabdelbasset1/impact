@@ -134,14 +134,14 @@
 
     <header class="header">
         <div class="header__content__venor">
-            <a href="{{url('/')}}" title="{{$setting->title}}">
+            <a href="{{url('/')}}" title="{{$setting->title}}" style="color: white !important;">
                 <div class="header__logo">
     {{--                <a href="{{url('/')}}" title="{{$setting->title}}">--}}
     {{--                    <img width="105" height="22" class="img-fluid logo-front"--}}
     {{--                         src="{{$setting->photo ? '/images/media/' . $setting->photo->file : '/img/200x200.png'}}" alt="logo">--}}
     {{--                </a>--}}
                         <div class="sidebar-brand-icon">
-                            <img src="{{asset('images/logo/impact-logo.png')}}" alt="" style="width: 120%; float: left">
+                            <img src="{{asset('images/logo/impact-logo.png')}}" alt="">
                         </div>
                         <div class="sidebar-brand-text mx-3">Impact<sup>Studios</sup></div>
                 </div>

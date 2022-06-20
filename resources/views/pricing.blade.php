@@ -33,7 +33,7 @@
 					    <div class="plan-features">
 					        {!!$pricing->description!!}
 					    </div>
-					    <a href="{{route('contact')}}" target="_self" class="btn btn-style1">{{$pricing->button_text}}</a>
+{{--					    <a href="{{route('contact')}}" target="_self" class="btn btn-style1">{{$pricing->button_text}}</a>--}}
 					</div>
 	   			</div>
 	   			@endforeach

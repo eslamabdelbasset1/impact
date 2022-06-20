@@ -70,21 +70,28 @@
                                                 <div class="wpb_text_column wpb_content_element " >
                                                     <div class="wpb_wrapper">
                                                         <h1></h1>
-                                                        <h1>Impact is a creative production company based in Amsterdam specialised in emotive filmmaking all over the world.</h1>
+                                                        <h1>
+                                                            @if($currentLang->rtl == 1)
+                                                                نحن مجموعة نابضة بالحياة من المبدعين. نقدم لكم الحزمة الكاملة للإنتاج و
+                                                                الخدمات التي تتماشى مع صناعة الأفلام في المنزل. دائما في طليعة التكنولوجيا و
+                                                                الرائد حاليًا في تسليم 8K HDR.
+                                                            @else
+                                                                We are a vibrant collective of creatives. Delivering you the full package of production and
+                                                                services that go with in-house filmmaking. Always at the forefront of technology and
+                                                                currently pioneering 8K HDR delivery.
+                                                            @endif
+                                                        </h1>
                                                     </div>
                                                 </div>
 
+{{--                                                <div class="wpb_text_column wpb_content_element " >--}}
+{{--                                                    <div class="wpb_wrapper">--}}
+{{--                                                        <p>We are a vibrant collective of creatives. Delivering you the full package of production and services that go with in-house filmmaking. Always at the forefront of technology and currently pioneering 8K HDR delivery.</p>--}}
+{{--                                                        <p>A strong concept, a professional team, beautiful cinematography, the perfect soundtrack and a vivid color grade. It’s the balance between visual storytelling and a seamless (edit) flow that makes our work unique. We create experience films with all the right feels, as if you are there.</p>--}}
+{{--                                                    </div>--}}
+{{--                                                </div>--}}
 
-
-
-                                                <div class="wpb_text_column wpb_content_element " >
-                                                    <div class="wpb_wrapper">
-                                                        <p>We are a vibrant collective of creatives. Delivering you the full package of production and services that go with in-house filmmaking. Always at the forefront of technology and currently pioneering 8K HDR delivery.</p>
-                                                        <p>A strong concept, a professional team, beautiful cinematography, the perfect soundtrack and a vivid color grade. It’s the balance between visual storytelling and a seamless (edit) flow that makes our work unique. We create experience films with all the right feels, as if you are there.</p>
-                                                    </div>
-                                                </div>
-
-
+                                                <br>
 
                                                 <a href="{{asset('/images/media/' . $slider->photo->file)}}" data-color-override="false" data-style="default" data-parent-hover="" data-font-style="p"
                                                    data-color="transparent-accent-color" class="nectar-button large nectar_video_lightbox pp"><span>Watch our reel</span></a><div
@@ -187,7 +194,15 @@
 
                                         <div class="wpb_text_column wpb_content_element " >
                                             <div class="wpb_wrapper">
-                                                <h1>Final Kid is a global leader in the event film industry</h1>
+                                                <h1>
+                                                    @if($currentLang->rtl == 1)
+                                                        مفهوم قوي ، فريق محترف ، تصوير سينمائي جميل ، موسيقى تصويرية رائعة
+                                                        ودرجة لون زاهية.
+                                                    @else
+                                                        A strong concept, a professional team, beautiful cinematography, the perfect soundtrack
+                                                        and a vivid color grade.
+                                                    @endif
+                                                </h1>
                                             </div>
                                         </div>
 
@@ -196,8 +211,17 @@
 
                                         <div class="wpb_text_column wpb_content_element " >
                                             <div class="wpb_wrapper">
-                                                <p>With over a decade of experience pioneering at the high-end of the aftermovie genre, We are always looking for new approaches, new techniques and new stories to share with your global audience.</p>
-                                                <p>We capture reality in a dream and always push the limits to get those (near) perfect shots for our clients. We are mostly known for the worldwide films we create for Ultra Music Festival, but have also worked on amazing projects for David Guetta, Tiësto, Parookaville, Kygo, Fedde Le Grand and many more.</p>
+                                                <p>
+                                                    @if($currentLang->rtl == 1)
+                                                        إنه التوازن بين رواية القصص المرئية وسلسلة (تحرير)
+                                                        التدفق الذي يجعل عملنا فريدًا. نصنع أفلام تجربة بكل ما هو صحيح ، كما لو
+                                                        انت هناك.
+                                                    @else
+                                                        It’s the balance between visual storytelling and a seamless (edit)
+                                                        flow that makes our work unique. We create experience films with all the right feels, as if
+                                                        you are there.
+                                                    @endif
+                                                </p>
                                             </div>
                                         </div>
 

@@ -30,7 +30,7 @@
 	   				<div class="venor-price-box @if($pricing->pricing_switch == 1) premium-pricing @endif">
 	   					@if($pricing->pricing_switch == 1) <div class="plan-ribbon-wrapper"><div class="plan-ribbon">{{$pricing->popular_text}}</div></div> @endif
 					    {!!$pricing->title!!}
-					    <div class="plan-features">
+					    <div class="plan-features ">
 					        {!!$pricing->description!!}
 					    </div>
 {{--					    <a href="{{route('contact')}}" target="_self" class="btn btn-style1">{{$pricing->button_text}}</a>--}}

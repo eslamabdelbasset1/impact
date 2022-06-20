@@ -3476,7 +3476,7 @@ a.popup-vimeo-video:hover {
     color: #bdbdbd;
     line-height: 26px;
     display: block;
-    text-align: left;
+    /*text-align: left;*/
 }
 
 .plan-features ul {

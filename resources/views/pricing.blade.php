@@ -1,12 +1,7 @@
 @extends('layouts.front')
-
-
 @section('title') {{$pricingsetting->meta_title}} @endsection
 @section('meta') {{$pricingsetting->meta_description}} @endsection
-
 @section('content')
-
-
    <div class="breadcrumb-area">
        <h1 class="breadcrumb-title">{{$pricingsetting->meta_title}}</h1>
        <ul class="page-list">
@@ -17,7 +12,6 @@
    </div>
 
    	<div class="pricing-elements">
-
    		<div class="container">
 
 {{--   			<h2>{!!$pricingsetting->title!!}</h2>--}}

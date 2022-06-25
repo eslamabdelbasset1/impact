@@ -18,22 +18,22 @@
       <div class="container">
         <div class="row">
 
-            <div class="col-md-3">
-                <div class="filters">
-                    <h4>{{clean( trans('niva-backend.sort_by') , array('Attr.EnableID' => true))}}</h4>
-                    <div class="filter active" data-filter="all"><span>{{clean( trans('niva-backend.all') , array('Attr.EnableID' => true))}}</span></div>
-                    @foreach($project_categories as $category)
-                      <div class="filter" data-filter="{{$category->name}}"><span>{{$category->name}}</span></div>
-                    @endforeach
-                </div>
-            </div>
+{{--            <div class="col-md-3">--}}
+{{--                <div class="filters">--}}
+{{--                    <h4>{{clean( trans('niva-backend.sort_by') , array('Attr.EnableID' => true))}}</h4>--}}
+{{--                    <div class="filter active" data-filter="all"><span>{{clean( trans('niva-backend.all') , array('Attr.EnableID' => true))}}</span></div>--}}
+{{--                    @foreach($project_categories as $category)--}}
+{{--                      <div class="filter" data-filter="{{$category->name}}"><span>{{$category->name}}</span></div>--}}
+{{--                    @endforeach--}}
+{{--                </div>--}}
+{{--            </div>--}}
 
-            <div class="col-md-9">
+            <div class="col-md-12">
 
                   <div class="projects projects-page row">
                       @foreach($projects as $project)
 {{--                          {{dd($project->photo->file)}}--}}
-                      <div class="project col-md-6" data-filter="{{$project->project_category->name}}">
+                      <div class="project col-md-4" data-filter="{{$project->project_category->name}}">
                         <div class="project-inner">
                             <div class="project-thumbnail">
                                 <a href="{{URL::to('/')}}/project/{{$project->slug}}" title="">

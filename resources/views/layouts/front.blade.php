@@ -225,16 +225,16 @@
     <div class="typed-section">
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
-                        <h4 class="parent-typed-text">
-                        <span class="mt_typed-beforetext">{{$headerfooter->typed_title}} </span>
-                            <span class="mt_typed_text"></span>
+{{--                <div class="col-md-8">--}}
+{{--                        <h4 class="parent-typed-text">--}}
+{{--                        <span class="mt_typed-beforetext">{{$headerfooter->typed_title}} </span>--}}
+{{--                            <span class="mt_typed_text"></span>--}}
 
-                        </h4>
-                </div>
-                <div class="col-md-4 text-right">
-                    <a href="{{$headerfooter->typed_buttonlink}}" target="_self" class="btn btn-style1"><span>{{$headerfooter->typed_buttontext}}</span></a>
-                </div>
+{{--                        </h4>--}}
+{{--                </div>--}}
+{{--                <div class="col-md-4 text-right">--}}
+{{--                    <a href="{{$headerfooter->typed_buttonlink}}" target="_self" class="btn btn-style1"><span>{{$headerfooter->typed_buttontext}}</span></a>--}}
+{{--                </div>--}}
             </div>
         </div>
     </div>
@@ -246,9 +246,9 @@
                 <div class="col-lg-6">
                     <div class="footer-left">
                         <div class="inner">
-                            <span>{{$headerfooter->footer_col1_subtitle}}</span>
+{{--                            <span>{{$headerfooter->footer_col1_subtitle}}</span>--}}
                             <h4>{{$headerfooter->footer_col1_title}}</h4>
-                            <a class="btn btn-style2" href="{{$headerfooter->footer_col1_buttonlink}}"> <span>{{$headerfooter->footer_col1_buttontext}}</span> </a>
+{{--                            <a class="btn btn-style2" href="{{$headerfooter->footer_col1_buttonlink}}"> <span>{{$headerfooter->footer_col1_buttontext}}</span> </a>--}}
                         </div>
                     </div>
                 </div>

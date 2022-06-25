@@ -1474,6 +1474,7 @@ body .full-width-section >.col.span_12 {
 .vc_row.vc_row-o-equal-height>.span_12>.vc_column_container>.vc_column-inner2 {
     width: 100%;
     margin: auto;
+    margin-top: 15%;
 
 }
 .vc_column_container>.vc_column-inner {

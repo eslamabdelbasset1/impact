@@ -72,24 +72,32 @@
                                                         <h1></h1>
                                                         <h1>
                                                             @if($currentLang->rtl == 1)
-                                                                نحن مجموعة نابضة بالحياة من المبدعين. نقدم لكم الحزمة الكاملة للإنتاج و
-                                                                الخدمات التي تتماشى مع صناعة الأفلام في المنزل. دائما في طليعة التكنولوجيا و
-                                                                الرائد حاليًا في تسليم 8K HDR.
+                                                                Impact هي شركة إنتاج إبداعي متخصصة في صناعة الأفلام المثيرة في جميع أنحاء العالم.
                                                             @else
-                                                                We are a vibrant collective of creatives. Delivering you the full package of production and
-                                                                services that go with in-house filmmaking. Always at the forefront of technology and
-                                                                currently pioneering 8K HDR delivery.
+                                                                Impact is a creative production company specialised in emotive filmmaking all over the world.
                                                             @endif
                                                         </h1>
                                                     </div>
                                                 </div>
 
-{{--                                                <div class="wpb_text_column wpb_content_element " >--}}
-{{--                                                    <div class="wpb_wrapper">--}}
-{{--                                                        <p>We are a vibrant collective of creatives. Delivering you the full package of production and services that go with in-house filmmaking. Always at the forefront of technology and currently pioneering 8K HDR delivery.</p>--}}
-{{--                                                        <p>A strong concept, a professional team, beautiful cinematography, the perfect soundtrack and a vivid color grade. It’s the balance between visual storytelling and a seamless (edit) flow that makes our work unique. We create experience films with all the right feels, as if you are there.</p>--}}
-{{--                                                    </div>--}}
-{{--                                                </div>--}}
+                                                <div class="wpb_text_column wpb_content_element " >
+                                                    <div class="wpb_wrapper">
+                                                        @if($currentLang->rtl == 1)
+                                                            <p>
+                                                                نحن مجموعة نابضة بالحياة من المبدعين. نقدم لكم الحزمة الكاملة للإنتاج و
+                                                                الخدمات التي تتماشى مع صناعة الأفلام في المنزل. دائما في طليعة التكنولوجيا و
+                                                                الرائد حاليًا في تسليم 8K HDR.
+                                                            </p>
+                                                        @else
+                                                            <p>
+                                                                We are a vibrant collective of creatives. Delivering you the full package of production and
+                                                                services that go with in-house filmmaking. Always at the forefront of technology and
+                                                                currently pioneering 8K HDR delivery.
+                                                            </p>
+                                                        @endif
+
+                                                    </div>
+                                                </div>
 
                                                 <br>
 
@@ -111,42 +119,42 @@
 
         <div data-v-72b3940d=""><!----></div>
         <div data-v-72b3940d=""><!----></div>
-        <div data-v-72b3940d="">
-            <div data-v-72b3940d="">
-              <div class="container">
-                  <div class="row" style="margin-top: 4%!important">
-                      @foreach($projects as $project)
+{{--        <div data-v-72b3940d="">--}}
+{{--            <div data-v-72b3940d="">--}}
+{{--              <div class="container">--}}
+{{--                  <div class="row" style="margin-top: 4%!important">--}}
+{{--                      @foreach($projects as $project)--}}
 {{--                          {{dd($project)}}--}}
-                          <div class="col-md-6">
-                              <div id="cold-summer-hero" class="standard relative project-box project-hover" data-v-5cab565f="" data-v-18fe3d02="">
-                                  <a href="{{URL::to('/')}}/project/{{$project->slug}}" data-v-5cab565f="" class="">
-                                      <video  loop="loop" muted="" playsinline="" autoplay="autoplay" preload="none" class="video video-thumbnail" style="width: 100%; margin-top: -4%">
-                                          <source src="{{ $project->photo ? '/images/video/' . $project->photo->file : '/img/200x200.png'}}" type="video/mp4;" />
-                                      </video>
-                                  </a>
-                                  <div class="info" data-v-c3ddceb6="" data-v-5cab565f="">
-                                      <a href="{{URL::to('/')}}/project/{{$project->slug}}" class="title" data-v-c3ddceb6="">
-                                          <svg width="7" height="8" viewBox="0 0 7 8" fill="none" xmlns="http://www.w3.org/2000/svg" class="title__svg title__svg--play" data-v-c3ddceb6="">
-                                              <path
-                                                  d="M0.929688 7.60938C1.09375 7.60938 1.23828 7.55078 1.41797 7.44531L6.03125 4.77734C6.36719 4.58203 6.50781 4.42969 6.50781 4.18359C6.50781 3.9375 6.36719 3.78906 6.03125 3.58984L1.41797 0.921875C1.23828 0.816406 1.09375 0.757812 0.929688 0.757812C0.609375 0.757812 0.382812 1.00391 0.382812 1.39062V6.97656C0.382812 7.36719 0.609375 7.60938 0.929688 7.60938Z"
-                                                  fill="#fff"
-                                                  data-v-c3ddceb6=""
-                                              ></path>
-                                          </svg>
-                                          <span data-v-c3ddceb6="">{{$project->title}}</span>
-                                      </a>
-                                      <div class="author-category" data-v-c3ddceb6="">
-                                          <span class="author-category__author" data-v-c3ddceb6=""><a href="{{asset('/images/video/' . $project->photo->file)}}" class="author-link" data-v-c3ddceb6="">{{$project->date}}</a> / </span>
-                                          <span class="author-category__category" data-v-c3ddceb6="">Music Video</span>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      @endforeach
-                  </div>
-              </div>
-            </div>
-        </div>
+{{--                          <div class="col-md-6">--}}
+{{--                              <div id="cold-summer-hero" class="standard relative project-box project-hover" data-v-5cab565f="" data-v-18fe3d02="">--}}
+{{--                                  <a href="{{URL::to('/')}}/project/{{$project->slug}}" data-v-5cab565f="" class="">--}}
+{{--                                      <video  loop="loop" muted="" playsinline="" autoplay="autoplay" preload="none" class="video video-thumbnail" style="width: 100%; margin-top: -4%">--}}
+{{--                                          <source src="{{ $project->photo ? '/images/video/' . $project->photo->file : '/img/200x200.png'}}" type="video/mp4;" />--}}
+{{--                                      </video>--}}
+{{--                                  </a>--}}
+{{--                                  <div class="info" data-v-c3ddceb6="" data-v-5cab565f="">--}}
+{{--                                      <a href="{{URL::to('/')}}/project/{{$project->slug}}" class="title" data-v-c3ddceb6="">--}}
+{{--                                          <svg width="7" height="8" viewBox="0 0 7 8" fill="none" xmlns="http://www.w3.org/2000/svg" class="title__svg title__svg--play" data-v-c3ddceb6="">--}}
+{{--                                              <path--}}
+{{--                                                  d="M0.929688 7.60938C1.09375 7.60938 1.23828 7.55078 1.41797 7.44531L6.03125 4.77734C6.36719 4.58203 6.50781 4.42969 6.50781 4.18359C6.50781 3.9375 6.36719 3.78906 6.03125 3.58984L1.41797 0.921875C1.23828 0.816406 1.09375 0.757812 0.929688 0.757812C0.609375 0.757812 0.382812 1.00391 0.382812 1.39062V6.97656C0.382812 7.36719 0.609375 7.60938 0.929688 7.60938Z"--}}
+{{--                                                  fill="#fff"--}}
+{{--                                                  data-v-c3ddceb6=""--}}
+{{--                                              ></path>--}}
+{{--                                          </svg>--}}
+{{--                                          <span data-v-c3ddceb6="">{{$project->title}}</span>--}}
+{{--                                      </a>--}}
+{{--                                      <div class="author-category" data-v-c3ddceb6="">--}}
+{{--                                          <span class="author-category__author" data-v-c3ddceb6=""><a href="{{asset('/images/video/' . $project->photo->file)}}" class="author-link" data-v-c3ddceb6="">{{$project->date}}</a> / </span>--}}
+{{--                                          <span class="author-category__category" data-v-c3ddceb6="">Music Video</span>--}}
+{{--                                      </div>--}}
+{{--                                  </div>--}}
+{{--                              </div>--}}
+{{--                          </div>--}}
+{{--                      @endforeach--}}
+{{--                  </div>--}}
+{{--              </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
 
         <div id="ajax-content-wrap">
 
@@ -225,7 +233,7 @@
                                             </div>
                                         </div>
 
-                                        <a href="https://www.youtube.com/watch?v=OoC1-vgYRdQ" data-color-override="false" data-style="default" data-parent-hover="" data-font-style="p" data-color="transparent-accent-color" class="nectar-button large nectar_video_lightbox pp"><span>Watch the Documentary</span></a>
+{{--                                        <a href="https://www.youtube.com/watch?v=OoC1-vgYRdQ" data-color-override="false" data-style="default" data-parent-hover="" data-font-style="p" data-color="transparent-accent-color" class="nectar-button large nectar_video_lightbox pp"><span>Watch the Documentary</span></a>--}}
                                     </div>
                                 </div>
                             </div>

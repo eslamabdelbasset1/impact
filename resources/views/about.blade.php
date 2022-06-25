@@ -49,55 +49,55 @@
        </div>
    </div>
 
-   <div class="members-section">
-        <div class="container">
-            <h3 class="members-heading1">{!!$aboutsetting->member_title_section!!}</h3>
+{{--   <div class="members-section">--}}
+{{--        <div class="container">--}}
+{{--            <h3 class="members-heading1">{!!$aboutsetting->member_title_section!!}</h3>--}}
 
 
-            <div class="row">
-                @foreach($members as $member)
-                  <div class="col-md-4">
-                      <div class="venor-team">
-                          <div class="thumbnail">
-                              <img width="350" height="350" class="lazy img-fluid" src="/public/img/loading-blog.gif" data-src="{{$member->photo ? '/images/media/' . $member->photo->file : '/public/img/200x200.png'}}" alt="team-venor">
-                          </div>
-                          <div class="content">
-                              <h5 class="title">{{$member->name}}</h5>
-                              <p class="position">{{$member->position}}</p>
-                          </div>
-                          <ul class="social-icon">
-                              <li><a target="_blank" rel="noopener" href="{{$member->facebook}}"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
-                              <li><a target="_blank" rel="noopener" href="{{$member->linkedin}}"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
-                              <li><a target="_blank" rel="noopener" href="{{$member->twitter}}"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                          </ul>
-                      </div>
-                  </div>
-                @endforeach
-            </div>
+{{--            <div class="row">--}}
+{{--                @foreach($members as $member)--}}
+{{--                  <div class="col-md-4">--}}
+{{--                      <div class="venor-team">--}}
+{{--                          <div class="thumbnail">--}}
+{{--                              <img width="350" height="350" class="lazy img-fluid" src="/public/img/loading-blog.gif" data-src="{{$member->photo ? '/images/media/' . $member->photo->file : '/public/img/200x200.png'}}" alt="team-venor">--}}
+{{--                          </div>--}}
+{{--                          <div class="content">--}}
+{{--                              <h5 class="title">{{$member->name}}</h5>--}}
+{{--                              <p class="position">{{$member->position}}</p>--}}
+{{--                          </div>--}}
+{{--                          <ul class="social-icon">--}}
+{{--                              <li><a target="_blank" rel="noopener" href="{{$member->facebook}}"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>--}}
+{{--                              <li><a target="_blank" rel="noopener" href="{{$member->linkedin}}"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>--}}
+{{--                              <li><a target="_blank" rel="noopener" href="{{$member->twitter}}"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>--}}
+{{--                          </ul>--}}
+{{--                      </div>--}}
+{{--                  </div>--}}
+{{--                @endforeach--}}
+{{--            </div>--}}
 
-        </div>
-    </div>
+{{--        </div>--}}
+{{--    </div>--}}
 
-    <div class="testimonial-section">
+{{--    <div class="testimonial-section">--}}
 
-        <div class="testimonial-section-slider owl-carousel">
+{{--        <div class="testimonial-section-slider owl-carousel">--}}
 
-            @foreach($testimonials as $testimonial)
-            <blockquote class="testimonial-slide">
-                <div class="section_title">{{$testimonial->subtitle}}</div>
-                <span class="testimonial_slider_title">{{$testimonial->title}}</span>
-                    <div class="testimonial-area">
-                        <div class="testimonial-layoutArea">
-                           <p>{{$testimonial->description}}</p>
-                        </div>
-                    </div>
-                <div class="testimonials_slider_name"> {{$testimonial->name}}<span> - {{$testimonial->position}}</span></div>
-            </blockquote>
-            @endforeach
+{{--            @foreach($testimonials as $testimonial)--}}
+{{--            <blockquote class="testimonial-slide">--}}
+{{--                <div class="section_title">{{$testimonial->subtitle}}</div>--}}
+{{--                <span class="testimonial_slider_title">{{$testimonial->title}}</span>--}}
+{{--                    <div class="testimonial-area">--}}
+{{--                        <div class="testimonial-layoutArea">--}}
+{{--                           <p>{{$testimonial->description}}</p>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                <div class="testimonials_slider_name"> {{$testimonial->name}}<span> - {{$testimonial->position}}</span></div>--}}
+{{--            </blockquote>--}}
+{{--            @endforeach--}}
 
-        </div>
+{{--        </div>--}}
 
-    </div>
+{{--    </div>--}}
 
 
     <div class="clients-section">
@@ -106,7 +106,9 @@
             <div class="clients-slider owl-carousel">
                   @foreach($clients as $client)
                   <div class="clients-slide">
-                      <a title="{{$client->company_name}}" target="_blank" href="{{$client->company_link}}"><img class="client_image owl-lazy" data-src="{{$client->photo ? '/public/images/media/' . $client->photo->file : '/public/img/200x200.png'}}" alt="{{$client->company_name}}"></a>
+                      <a title="{{$client->company_name}}" target="_blank" href="{{$client->company_link}}">
+                          <img class="client_image owl-lazy" data-src="{{$client->photo ? '/public/images/media/' . $client->photo->file : '/public/img/200x200.png'}}"
+                               alt="{{$client->company_name}}"></a>
                   </div>
                   @endforeach
             </div>

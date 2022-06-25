@@ -20,8 +20,8 @@
 
    		<div class="container">
 
-   			<h2>{!!$pricingsetting->title!!}</h2>
-   			<p>{{$pricingsetting->description}}</p>
+{{--   			<h2>{!!$pricingsetting->title!!}</h2>--}}
+{{--   			<p>{{$pricingsetting->description}}</p>--}}
 
 	   		<div class="row">
 
@@ -41,10 +41,5 @@
 	   		</div>
 	    </div>
    	</div>
-
-
-
-
-
 @endsection
 

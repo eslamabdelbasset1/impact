@@ -2763,11 +2763,17 @@ a.popup-vimeo-video:hover {
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
 }
+.about-us{
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%;
+}
 .about-us p {
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
-    color: #bdbdbd;
+    color: #f3efef;
 }
 
 
@@ -3412,6 +3418,10 @@ a.popup-vimeo-video:hover {
     padding: 70px 0 90px;
     border-top: 1px solid #222227;
     border-bottom: 1px solid #222227;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%;
 }
 .venor-price-box a.btn.btn-style1 {
     margin-right: 0;

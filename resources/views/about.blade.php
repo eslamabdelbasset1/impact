@@ -19,7 +19,7 @@
         </ul>
    </div>
 
-   <div class="about-us">
+   <div class="about-us" style="background-image: url('{{ asset('images/media/pic2.jpeg')}}');">
        <div class="container">
            <div class="row align-items-center">
                <div class="col-md-5">

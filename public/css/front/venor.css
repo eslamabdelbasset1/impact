@@ -3467,6 +3467,7 @@ a.popup-vimeo-video:hover {
     -webkit-box-shadow: 0 7px 8px 0 rgb(0 0 0 / 6%);
     box-shadow: 0 7px 8px 0 rgb(0 0 0 / 6%);
     border: 1px solid #222227;
+    background: #222227;
 }
 .venor-price-box h3 {
     padding: 20px 10px;

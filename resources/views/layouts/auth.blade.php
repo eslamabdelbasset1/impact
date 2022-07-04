@@ -17,7 +17,8 @@
     @yield('styles')
 
 </head>
-<body class="bg-gradient-primary">
+<body style="background-image: url('{{ asset('images/media/pic2.jpeg')}}'); background-repeat: no-repeat;
+            background-size: 100% 100%">
     @yield('content')
 
     <!-- Scripts -->

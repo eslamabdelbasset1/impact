@@ -12,7 +12,7 @@
                 <div class="card-body p-0">
                     <!-- Nested Row within Card Body -->
                     <div class="row">
-                        <div class="col-lg-6 d-none d-lg-block bg-password-image"></div>
+                        <div class="col-lg-6 d-none d-lg-block bg-password-image" style="background-image: url('{{ asset('images/media/about-us.jpeg')}}');"></div>
                         <div class="col-lg-6">
                             <div class="p-5">
                                 <div class="text-center">
@@ -42,9 +42,6 @@
                                     </button>
                                 </form>
                                 <hr>
-                                <div class="text-center">
-                                    <a class="small" href="{{ route('register') }}">Create an Account!</a>
-                                </div>
                                 <div class="text-center">
                                     <a class="small" href="{{ route('login') }}">Already have an account? Login!</a>
                                 </div>

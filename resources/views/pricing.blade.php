@@ -11,7 +11,7 @@
         </ul>
    </div>
 
-   	<div class="pricing-elements" style="background-image: url('{{ asset('images/media/pic2.jpeg')}}');">>
+   	<div class="pricing-elements" style="background-image: url('{{ asset('images/media/pic2.jpeg')}}');">
    		<div class="container">
 
 {{--   			<h2>{!!$pricingsetting->title!!}</h2>--}}

@@ -1886,3 +1886,11 @@ body .row .col.section-title h1, body h1, html body .row .col.section-title.span
         filter: blur(4px);
     }
 }
+
+@media screen and (max-width: 769px) {
+    .loading-text{
+        position: absolute;
+        top: -17%;
+        bottom: 0;
+    }
+}

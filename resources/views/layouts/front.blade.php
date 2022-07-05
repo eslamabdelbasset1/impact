@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+{{--<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">--}}
 <head>
 
     @php $setting = App\Models\Setting::find($currentLang->id); @endphp
@@ -131,6 +131,38 @@
 
 </head>
 <body class="common-front @if($currentLang->rtl == 1) rtl @endif" @if($currentLang->rtl == 1) dir="rtl" @endif>
+    <!-- Page Loader -->
+{{--    <div class="page-loader-wrapper">--}}
+{{--        <div class="loader">--}}
+{{--            <div class="bar1">--}}
+{{--                <img src="{{ asset('images/logo/impact2.png')}}" alt="">--}}
+{{--            </div>--}}
+{{--            <div class="bar2"></div>--}}
+{{--            <div class="bar3"></div>--}}
+{{--            <div class="bar4"></div>--}}
+{{--            <div class="bar5"></div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+    <div class="page-loader-wrapper">
+        <div class="loading">
+            <div class="loading-text">
+                <span class="loading-text-words">I</span>
+                <span class="loading-text-words">M</span>
+                <span class="loading-text-words">P</span>
+                <span class="loading-text-words">A</span>
+                <span class="loading-text-words">C</span>
+                <span class="loading-text-words">T</span>
+                <span class="loading-text-words"> </span>
+                <span class="loading-text-words">S</span>
+                <span class="loading-text-words">T</span>
+                <span class="loading-text-words">U</span>
+                <span class="loading-text-words">D</span>
+                <span class="loading-text-words">I</span>
+                <span class="loading-text-words">O</span>
+                <span class="loading-text-words">S</span>
+            </div>
+        </div>
+    </div>
 
     <header class="header">
         <div class="header__content__venor">
@@ -321,6 +353,9 @@
     @endif
 
     <script src="{{ asset('js/libs/jquery.min.js') }}"></script>
+{{--    <script src="{{ asset('js/front/libscripts.bundle.js') }}"></script>--}}
+{{--    <script src="{{ asset('js/front/vendorscripts.bundle.js') }}"></script>--}}
+{{--    <script src="{{ asset('js/front/mainscripts.bundle.js') }}"></script>--}}
     <script src="{{ asset('js/front/popper.min.js') }}"></script>
     <script src="{{ asset('js/front/bootstrap.min.js') }}" defer></script>
     <script src="{{ asset('js/front/owl.carousel.min.js') }}"></script>
@@ -342,7 +377,36 @@
     <script type='text/javascript' src='{{asset('js/libs/init.js')}}' id='nectar-frontend-js'></script>
     @include('cookieConsent::index')
 
+    <script>
+        // function loadingFade() {
+        //     const LoadingBg = document.querySelector('.page-loader-wrapper');
+        //     const LoadingTxt = document.querySelector('.loading-text');
+        //     LoadingBg.style.opacity = "0";
+        //     LoadingTxt.style.opacity = "0";
+        // }
+        //
+        // function loadingRemove() {
+        //     const Loading = document.querySelector('.loading');
+        //     Loading.style.display = "none";
+        //
+        // }
+        // const firstVist = localStorage.getItem('visited');
+        //
+        // if(firstVist == null){
+        //     window.setInterval(loadingFade, 2800);
+        //     window.setInterval(loadingRemove, 3000);
+        //     localStorage.setItem('visited', 1);
+        // }else
+        // {
+        //     loadingRemove();
+        // }
 
+        $(window).on('load',function(){
+            setTimeout(function(){ // allowing 3 secs to fade out loader
+                $('.page-loader-wrapper').fadeOut('slow');
+            },800);
+        });
+    </script>
 
     <script type="text/javascript">
     ( function ( $ ) {

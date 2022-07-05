@@ -353,9 +353,6 @@
     @endif
 
     <script src="{{ asset('js/libs/jquery.min.js') }}"></script>
-{{--    <script src="{{ asset('js/front/libscripts.bundle.js') }}"></script>--}}
-{{--    <script src="{{ asset('js/front/vendorscripts.bundle.js') }}"></script>--}}
-{{--    <script src="{{ asset('js/front/mainscripts.bundle.js') }}"></script>--}}
     <script src="{{ asset('js/front/popper.min.js') }}"></script>
     <script src="{{ asset('js/front/bootstrap.min.js') }}" defer></script>
     <script src="{{ asset('js/front/owl.carousel.min.js') }}"></script>
@@ -366,8 +363,6 @@
     <script src="{{ asset('js/front/tilt.jquery.min.js') }} " defer></script>
     <script src="{{ asset('js/front/magnific.min.js') }}" defer></script>
     <script src="{{ asset('js/front/venor.js')}}" defer></script>
-{{--    <script defer="" src="{{ asset('_nuxt/static/1654788385/united-kingdom/state.js')}}"></script>--}}
-{{--    <script src="{{ asset('_nuxt/9908ea3.js')}}" defer=""></script>--}}
     <script src="{{ asset('_nuxt/7a98c72.js')}}" defer=""></script>
     <script src="{{ asset('_nuxt/577a796.js')}}" defer=""></script>
     <script src="{{ asset('_nuxt/196c1c5.js')}}" defer=""></script>
@@ -381,18 +376,16 @@
         $(window).scroll(function(){
             if ($(window).scrollTop() >= 300) {
                 $('header').addClass('fixed-header');
-                $('header div').addClass('visible-title');
             }
             else {
                 $('header').removeClass('fixed-header');
-                $('header div').removeClass('visible-title');
             }
         });
 
         $(window).on('load',function(){
             setTimeout(function(){ // allowing 3 secs to fade out loader
                 $('.page-loader-wrapper').fadeOut('slow');
-            },600);
+            },500);
         });
     </script>
 

@@ -1894,3 +1894,7 @@ body .row .col.section-title h1, body h1, html body .row .col.section-title.span
         bottom: 0;
     }
 }
+
+.fixed-header{
+    position: fixed;
+}

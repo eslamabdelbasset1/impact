@@ -392,7 +392,7 @@
         $(window).on('load',function(){
             setTimeout(function(){ // allowing 3 secs to fade out loader
                 $('.page-loader-wrapper').fadeOut('slow');
-            },800);
+            },600);
         });
     </script>
 

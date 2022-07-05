@@ -19,7 +19,7 @@
         </ul>
    </div>
 
-   <div class="about-us" style="background-image: url('{{ asset('images/media/pic2.jpeg')}}');">
+   <div class="about-us" style="background-image: url('{{ asset('images/media/pic2.jpeg')}}'); opacity: 0.6">
        <div class="container">
            <div class="row align-items-center">
                <div class="col-md-5">
@@ -28,9 +28,9 @@
                         <div class="simpleParallax">
                             <img width="500" height="665" src="/public/img/loading-blog.gif" class="lazy thumparallax img-fluid" data-src="{{$aboutsetting->about_image}}" alt="about-image">
                         </div>
-                        <a class="popup-vimeo-video" href="{{$aboutsetting->about_ytlink}}">
-                            <i class="far fa-play-circle"></i>
-                        </a>
+{{--                        <a class="popup-vimeo-video" href="{{$aboutsetting->about_ytlink}}">--}}
+{{--                            <i class="far fa-play-circle"></i>--}}
+{{--                        </a>--}}
                     </div>
                </div>
                <div class="col-md-7">

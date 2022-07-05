@@ -115,7 +115,7 @@ body::-webkit-scrollbar-thumb {
 @media screen and (max-width: 760px) {
     .header__logo img {
         width: 100% !important;
-        height: 60px !important;
+        height: 75px !important;
         display: block;
     }
 
@@ -2773,7 +2773,7 @@ a.popup-vimeo-video:hover {
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
-    color: #f3efef;
+    color: #fff;
 }
 
 

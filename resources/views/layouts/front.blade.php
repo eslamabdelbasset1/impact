@@ -378,28 +378,16 @@
     @include('cookieConsent::index')
 
     <script>
-        // function loadingFade() {
-        //     const LoadingBg = document.querySelector('.page-loader-wrapper');
-        //     const LoadingTxt = document.querySelector('.loading-text');
-        //     LoadingBg.style.opacity = "0";
-        //     LoadingTxt.style.opacity = "0";
-        // }
-        //
-        // function loadingRemove() {
-        //     const Loading = document.querySelector('.loading');
-        //     Loading.style.display = "none";
-        //
-        // }
-        // const firstVist = localStorage.getItem('visited');
-        //
-        // if(firstVist == null){
-        //     window.setInterval(loadingFade, 2800);
-        //     window.setInterval(loadingRemove, 3000);
-        //     localStorage.setItem('visited', 1);
-        // }else
-        // {
-        //     loadingRemove();
-        // }
+        $(window).scroll(function(){
+            if ($(window).scrollTop() >= 300) {
+                $('header').addClass('fixed-header');
+                $('header div').addClass('visible-title');
+            }
+            else {
+                $('header').removeClass('fixed-header');
+                $('header div').removeClass('visible-title');
+            }
+        });
 
         $(window).on('load',function(){
             setTimeout(function(){ // allowing 3 secs to fade out loader

@@ -63,7 +63,7 @@ Route::group(['middleware' => 'setlang'], function () {
 
     Route::get('/about-us', [HomeController::class, 'about'])->name('about');
     Route::get('/portfolio', [HomeController::class, 'portfolio'])->name('portfolio');
-    Route::get('/pricing', [HomeController::class, 'pricing'])->name('pricing');
+    Route::get('/services', [HomeController::class, 'pricing'])->name('pricing');
     Route::get('/blog', [HomeController::class, 'blog'])->name('blog');
     Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
     Route::post('/contact', [HomeController::class, 'contactPost'])->name('contactPost');

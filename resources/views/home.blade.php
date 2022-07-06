@@ -23,13 +23,13 @@
                                         data-v-c3ddceb6=""
                                     ></path>
                                 </svg>
-                                <span data-v-c3ddceb6="">{{$slider->heading1}} </span>
+{{--                                <span data-v-c3ddceb6="">{{$slider->heading1}} </span>--}}
                             </a>
-                            <div class="author-category" data-v-c3ddceb6="">
-                                <span class="author-category__author" data-v-c3ddceb6="">
-                                    <a href="/artist/stink-rising-dylan-holmes-williams" class="author-link" data-v-c3ddceb6="">{{$slider->heading2}} </a>
-                                </span>
-                            </div>
+{{--                            <div class="author-category" data-v-c3ddceb6="">--}}
+{{--                                <span class="author-category__author" data-v-c3ddceb6="">--}}
+{{--                                    <a href="/artist/stink-rising-dylan-holmes-williams" class="author-link" data-v-c3ddceb6="">{{$slider->heading2}} </a>--}}
+{{--                                </span>--}}
+{{--                            </div>--}}
                         </div>
                     </div>
                 @endforeach

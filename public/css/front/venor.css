@@ -98,13 +98,14 @@ body::-webkit-scrollbar-thumb {
     width: 120%;
     height: 70px;
     display: block;
+    padding: 8px;
 }
 
 .header__logo .sidebar-brand-text{
     height: 4.375rem;
     text-decoration: none;
     font-size: 1rem;
-    font-weight: 800;
+    font-weight: 600;
     padding: 1.5rem 0rem;
     text-align: center;
     text-transform: uppercase;
@@ -115,15 +116,15 @@ body::-webkit-scrollbar-thumb {
 @media screen and (max-width: 760px) {
     .header__logo img {
         width: 100% !important;
-        height: 90px !important;
+        height: 70px !important;
         display: block;
-        padding: 7px;
+        padding: 8px;
     }
 
     .header__logo .sidebar-brand-text{
         height: 4.375rem;
         text-decoration: none;
-        font-size: 0.6rem;
+        font-size: 0.9rem;
         padding: 2rem 0rem;
 
     }

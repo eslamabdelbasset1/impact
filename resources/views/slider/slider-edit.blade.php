@@ -43,30 +43,30 @@
 
                                 <div class="col-xs-12 col-sm-12 col-md-12">
 
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <strong>{{clean( trans('niva-backend.heading_1') , array('Attr.EnableID' => true))}}</strong>
-                                                <input type="text" name="heading1" class="form-control" value="{{$slider->heading1}}">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <strong>{{clean( trans('niva-backend.heading_2') , array('Attr.EnableID' => true))}}</strong>
-                                                <input type="text" name="heading2" class="form-control" value="{{$slider->heading2}}">
-                                            </div>
-                                        </div>
-                                    </div>
+{{--                                    <div class="row">--}}
+{{--                                        <div class="col-md-6">--}}
+{{--                                            <div class="form-group">--}}
+{{--                                                <strong>{{clean( trans('niva-backend.heading_1') , array('Attr.EnableID' => true))}}</strong>--}}
+{{--                                                <input type="text" name="heading1" class="form-control" value="{{$slider->heading1}}">--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                        <div class="col-md-6">--}}
+{{--                                            <div class="form-group">--}}
+{{--                                                <strong>{{clean( trans('niva-backend.heading_2') , array('Attr.EnableID' => true))}}</strong>--}}
+{{--                                                <input type="text" name="heading2" class="form-control" value="{{$slider->heading2}}">--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
 
-                                    <div class="form-group">
-                                        <strong>{{clean( trans('niva-backend.typed_text') , array('Attr.EnableID' => true))}}</strong>
-                                        <input type="text" name="typed_text" class="form-control" value="{{$slider->typed_text}}">
-                                    </div>
+{{--                                    <div class="form-group">--}}
+{{--                                        <strong>{{clean( trans('niva-backend.typed_text') , array('Attr.EnableID' => true))}}</strong>--}}
+{{--                                        <input type="text" name="typed_text" class="form-control" value="{{$slider->typed_text}}">--}}
+{{--                                    </div>--}}
 
-                                    <div class="form-group">
-                                        <strong>{{clean( trans('niva-backend.body') , array('Attr.EnableID' => true))}}</strong>
-                                        <textarea name="bodyslider" class="form-control" id="bodyslider" rows="10">{{$slider->bodyslider}}</textarea>
-                                    </div>
+{{--                                    <div class="form-group">--}}
+{{--                                        <strong>{{clean( trans('niva-backend.body') , array('Attr.EnableID' => true))}}</strong>--}}
+{{--                                        <textarea name="bodyslider" class="form-control" id="bodyslider" rows="10">{{$slider->bodyslider}}</textarea>--}}
+{{--                                    </div>--}}
 
 
                                     <div class="row">

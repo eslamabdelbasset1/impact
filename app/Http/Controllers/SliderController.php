@@ -10,9 +10,6 @@ use App\Models\Language;
 
 class SliderController extends Controller
 {
-    //
-
-
     public function index(Request $request)
     {
 
@@ -41,7 +38,9 @@ class SliderController extends Controller
      */
     public function store(SliderRequest $request)
     {
-        $input = $request->all();
+        $input = $request->validate([
+            'photo_id' => 'required'
+        ]);
 
         if ($file = $request->file('photo_id')) {
 
@@ -76,7 +75,10 @@ class SliderController extends Controller
         $old_image = $request->old_image;
 //        unlink("images/video/". $old_image);
 
-        $input = $request->all();
+
+        $input = $request->validate([
+            'photo_id' => 'required'
+        ]);
         if ($file = $request->file('photo_id')) {
 
             $name = time() . $file->getClientOriginalName();

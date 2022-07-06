@@ -24,10 +24,10 @@ class SliderRequest extends FormRequest
     public function rules()
     {
         return [
-            'heading1'=> 'required',
-            'heading2'=> 'required',
-            'button_text'=> 'required',
-            'button_link'=> 'required',
+//            'heading1'=> 'required',
+//            'heading2'=> 'required',
+//            'button_text'=> 'required',
+//            'button_link'=> 'required',
         ];
     }
 }

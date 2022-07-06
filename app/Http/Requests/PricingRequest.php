@@ -25,9 +25,9 @@ class PricingRequest extends FormRequest
     {
         return [
             'title'=> 'required',
-            'description'=> 'required',
-            'button_text'=> 'required',
-            'button_link'=> 'required',
+//            'description'=> 'required',
+//            'button_text'=> 'required',
+//            'button_link'=> 'required',
         ];
     }
 }

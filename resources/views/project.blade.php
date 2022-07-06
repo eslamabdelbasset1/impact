@@ -8,8 +8,8 @@
 @endsection
 
 @section('content')
-  
-  
+
+
    <div class="breadcrumb-area">
        <h1 class="breadcrumb-title">{{$project->meta_title}}</h1>
    </div>
@@ -25,7 +25,7 @@
 			    <div class="col-md-4">
 			        <h4 class="post-name">Info </h4>
 			        <span class="venor-animate-border"></span>
-			        
+
 			        <p><strong>{{$project->date}}</strong></p>
 			        <p><strong>{{$project->client}}</strong></p>
 			        <p><strong>{{$project->project_category->name}}</strong></p>
@@ -36,45 +36,54 @@
 
 			<div class="gallery">
 				<div class="row">
+                    @if($project->img_gal1 == null)
+                    @else
+                        <div class="col-md-6">
+                            <div class="featured-image">
+                                <a href="{{$project->img_gal1}}">
+                                    <img class="img-fluid lazy" src="/public/img/loading-blog.gif" data-src="{{$project->img_gal1}}">
+                                </a>
+                            </div>
+                        </div>
+                    @endif
 
-					<div class="col-md-6">
-						<div class="featured-image">
-							<a href="{{$project->img_gal1}}">
-								<img class="img-fluid lazy" src="/public/img/loading-blog.gif" data-src="{{$project->img_gal1}}">
-							</a>
-						</div>
-					</div>
-
-					<div class="col-md-6">
+                    @if($project->img_gal2 == null)
+                    @else
+					    <div class="col-md-6">
 						<div class="featured-image">
 							<a href="{{$project->img_gal2}}">
 								<img class="img-fluid lazy" src="/public/img/loading-blog.gif" data-src="{{$project->img_gal2}}">
 							</a>
 						</div>
 					</div>
-
-					<div class="col-md-6">
+                   @endif
+                    @if($project->img_gal3 == null)
+                    @else
+					    <div class="col-md-6">
 						<div class="featured-image">
 							<a href="{{$project->img_gal3}}">
 								<img class="img-fluid lazy" src="/public/img/loading-blog.gif" data-src="{{$project->img_gal3}}">
 							</a>
 						</div>
 					</div>
-					
-					<div class="col-md-6">
+                     @endif
+                    @if($project->img_gal4 == null)
+                    @else
+					    <div class="col-md-6">
 						<div class="featured-image">
 							<a href="{{$project->img_gal4}}">
 								<img class="img-fluid lazy" src="/public/img/loading-blog.gif" data-src="{{$project->img_gal4}}">
 							</a>
 						</div>
 					</div>
+                   @endif
 
 				</div>
-				
+
 			</div>
 
    		</div>
-   		
+
    	</div>
 
 

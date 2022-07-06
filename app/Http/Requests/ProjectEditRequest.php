@@ -28,8 +28,6 @@ class ProjectEditRequest extends FormRequest
             'slug'=> 'required',
             'slug'=> 'required',
             'body'=> 'required',
-            'meta_title'=> 'required',
-            'meta_description'=> 'required',
         ];
     }
 }

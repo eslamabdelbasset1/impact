@@ -13,8 +13,8 @@ use App\Models\Category;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Requests\PageRequest;
-use App\Http\Requests\PageEditRequest; 
-use App\Models\HeaderFooterSetting; 
+use App\Http\Requests\PageEditRequest;
+use App\Models\HeaderFooterSetting;
 use App\Models\Setting;
 use App\Models\Menu;
 use App\Models\Photo;
@@ -31,7 +31,7 @@ class PageController extends Controller
 
     public function index(Request $request)
     {
-        
+
 
         $langs = Language::all();
         $lang = Language::where('code', $request->language)->first();
@@ -69,7 +69,7 @@ class PageController extends Controller
             $data['contact'] = ContactSetting::findOrFail($lang->id);
             $data['blog'] = BlogSetting::findOrFail($lang->id);
         }
-        
+
         //return $data['home'];
         return view('page.page-custom', $data, compact('langs'));
     }
@@ -125,11 +125,11 @@ class PageController extends Controller
      */
     public function update(PageEditRequest $request, Page $page)
     {
-        
+
         $input = $request->all();
 
         if ($file = $request->file('photo_id')) {
-            
+
             $name = time() . $file->getClientOriginalName();
 
             $file->move('images/media/', $name);
@@ -170,8 +170,6 @@ class PageController extends Controller
     // Show a page by slug
     public function show_slug($slug = 'home')
     {
-
-
         if (session()->has('lang')) {
             $currentLang = Language::where('code', session()->get('lang'))->first();
         } else {
@@ -192,7 +190,7 @@ class PageController extends Controller
         } else {
             abort(404);
         }
-        
+
     }
 
 

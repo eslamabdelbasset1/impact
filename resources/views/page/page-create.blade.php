@@ -1,11 +1,6 @@
-
-
 @extends('layouts.admin')
-
 @section('content')
-
 @include('includes.tinyeditor')
-
 <!-- Begin Page Content -->
 <div class="container-fluid">
 
@@ -42,11 +37,11 @@
 
                 @if ($message = Session::get('page_success'))
                     <div class="alert alert-success alert-block">
-                        <button type="button" class="close" data-dismiss="alert"><i class="fas fa-times"></i></button>    
+                        <button type="button" class="close" data-dismiss="alert"><i class="fas fa-times"></i></button>
                         <strong>{{ $message }}</strong>
                     </div>
                 @endif
-   
+
 
                 @include('includes.form-errors')
 
@@ -60,7 +55,7 @@
 
                             <div class="row">
                                 <div class="col-xs-12 col-sm-12 col-md-12">
-                                    
+
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="form-group">
@@ -75,10 +70,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    
 
-                                    
-                                    
+
+
+
                                     <div class="form-group">
                                         <strong>{{clean( trans('niva-backend.photo') , array('Attr.EnableID' => true))}}</strong>
                                         <input type="file"  name="photo_id" class="form-control-file"  id="photo_id">
@@ -91,7 +86,7 @@
                                     </div>
 
 
-                                    
+
 
                                      <div class="row">
                                         <div class="col-md-6">
@@ -106,13 +101,13 @@
                                                 <input type="text" name="meta_description" class="form-control" placeholder="">
                                             </div>
                                         </div>
-                                    </div>   
-                                    
+                                    </div>
 
 
-                                
+
+
                                 </div>
-  
+
 
                                 <div class="col-xs-12 col-sm-12 col-md-12 text-right">
                                     <button type="submit" class="btn btn-primary">{{clean( trans('niva-backend.create') , array('Attr.EnableID' => true))}}</button>
@@ -120,7 +115,7 @@
                             </div>
 
                         </form>
-                        
+
                     </div>
                 </div>
 

@@ -4,7 +4,7 @@ return [
 	'back_testimonial' => 'Back to testimonials',
 	'back_slider' => 'Back to sliders',
 	'back_services' => 'Back to services',
-	'back_projectpage' => 'Back to Project page',
+	'back_projectpage' => 'Back to Service page',
 	'back_categories' => 'Back to categories',
 	'back_pricingpage' => 'Back to Service page',
 	'back_blogpage' => 'Back to Blog page',
@@ -34,8 +34,8 @@ return [
     'all_categories' => 'All Categories',
     'choose_category' => 'Choose Category',
     'body' => 'Body',
-    'project' => 'Project',
-    'projects' => 'Projects',
+    'project' => 'Service',
+    'projects' => 'Services',
     'link' => 'Link',
     'email' => 'Email',
     'role' => 'Role',
@@ -119,7 +119,7 @@ return [
     'footer_typed_text_section' => 'Footer Typed text section',
     'section_clients' => 'Section Clients',
     'section_members' => 'Section Members',
-    'section_projects' => 'Section Projects',
+    'section_projects' => 'Section Services',
 
 
     'count_number_1' => 'count number 1',
@@ -167,14 +167,14 @@ return [
     'button_youtube_link' => 'Button youtube link',
 
     'create_service' => 'Create service',
-    'create_project' => 'Create project',
+    'create_project' => 'Create Service',
     'create_post' => 'Create post',
-    'edit_project' => 'Edit project',
-    'duration_project' => 'Duration project',
+    'edit_project' => 'Edit Service',
+    'duration_project' => 'Duration Service',
     'client' => 'Client',
     'clients' => 'Clients',
     'all_pricings' => 'All Services',
-    'all_projects' => 'All projects',
+    'all_projects' => 'All Services',
     'pages' => 'Pages',
     'all_pages' => 'All pages',
     'edit_pricing' => 'Edit Service',
@@ -286,5 +286,5 @@ return [
     'you_searched_for' => 'You searched for:',
 
 
-    'start_project_button' => 'Start project button',
+    'start_project_button' => 'Start Services button',
 ];

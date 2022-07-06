@@ -36,7 +36,7 @@
                       <div class="project col-md-4" data-filter="{{$project->project_category->name}}">
                         <div class="project-inner">
                             <div class="project-thumbnail">
-                                <a href="{{URL::to('/')}}/project/{{$project->slug}}" title="">
+                                <a href="{{asset('/images/video/' . $project->photo->file)}}" title="">
                                 <figure>
                                     <video loop="loop" muted="muted" autoplay="autoplay">
                                         <source src="{{$project->photo ? '/images/video/' . $project->photo->file : '/public/img/200x200.png'}}"/>

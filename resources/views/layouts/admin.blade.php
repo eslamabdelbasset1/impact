@@ -100,21 +100,21 @@
             </li>
             @endif
 
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="/admin" data-toggle="collapse" data-target="#collapsePosts"
-                    aria-expanded="true" aria-controls="collapsePosts">
-                    <i class="fas fa-fw fa-file-signature"></i>
-                    <span>{{clean( trans('niva-backend.posts') , array('Attr.EnableID' => true))}}</span>
-                </a>
-                <div id="collapsePosts" class="collapse"  data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="{{ route('post.index') }}?language=@php echo $lang->code; @endphp">{{clean( trans('niva-backend.all_posts') , array('Attr.EnableID' => true))}}</a>
-                        <a class="collapse-item" href="{{ route('post.create') }}?language=@php echo $lang->code; @endphp">{{clean( trans('niva-backend.create_post') , array('Attr.EnableID' => true))}}</a>
-                        <h6 class="collapse-header">{{clean( trans('niva-backend.categories') , array('Attr.EnableID' => true))}}</h6>
-                        <a class="collapse-item" href="{{ route('category.index') }}?language=@php echo $lang->code; @endphp">{{clean( trans('niva-backend.all_categories') , array('Attr.EnableID' => true))}}</a>
-                    </div>
-                </div>
-            </li>
+{{--            <li class="nav-item">--}}
+{{--                <a class="nav-link collapsed" href="/admin" data-toggle="collapse" data-target="#collapsePosts"--}}
+{{--                    aria-expanded="true" aria-controls="collapsePosts">--}}
+{{--                    <i class="fas fa-fw fa-file-signature"></i>--}}
+{{--                    <span>{{clean( trans('niva-backend.posts') , array('Attr.EnableID' => true))}}</span>--}}
+{{--                </a>--}}
+{{--                <div id="collapsePosts" class="collapse"  data-parent="#accordionSidebar">--}}
+{{--                    <div class="bg-white py-2 collapse-inner rounded">--}}
+{{--                        <a class="collapse-item" href="{{ route('post.index') }}?language=@php echo $lang->code; @endphp">{{clean( trans('niva-backend.all_posts') , array('Attr.EnableID' => true))}}</a>--}}
+{{--                        <a class="collapse-item" href="{{ route('post.create') }}?language=@php echo $lang->code; @endphp">{{clean( trans('niva-backend.create_post') , array('Attr.EnableID' => true))}}</a>--}}
+{{--                        <h6 class="collapse-header">{{clean( trans('niva-backend.categories') , array('Attr.EnableID' => true))}}</h6>--}}
+{{--                        <a class="collapse-item" href="{{ route('category.index') }}?language=@php echo $lang->code; @endphp">{{clean( trans('niva-backend.all_categories') , array('Attr.EnableID' => true))}}</a>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </li>--}}
 
             <li class="nav-item">
                 <a class="nav-link collapsed" href="/media" data-toggle="collapse" data-target="#collapseMedia"

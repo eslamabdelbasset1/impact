@@ -3423,7 +3423,7 @@ a.popup-vimeo-video:hover {
     background-repeat: no-repeat;
     width: 100vw;
     /*height: 100vh;*/
-    background-size: 100% 100%;
+    background-size: contain;
 }
 .venor-price-box a.btn.btn-style1 {
     margin-right: 0;

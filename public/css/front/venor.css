@@ -118,14 +118,14 @@ body::-webkit-scrollbar-thumb {
         width: 100% !important;
         height: 70px !important;
         display: block;
-        padding: 8px;
+        padding: 2px;
     }
 
     .header__logo .sidebar-brand-text{
-        height: 4.375rem;
+        height: 3rem;
         text-decoration: none;
-        font-size: 0.9rem;
-        padding: 2rem 0rem;
+        font-size: .7rem;
+        padding: 1rem 0rem;
 
     }
 }

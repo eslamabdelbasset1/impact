@@ -1669,6 +1669,19 @@ body .row .col.section-title h1, body h1, html body .row .col.section-title.span
         font-size: 29.25px;
         line-height: 32.5px;
     }
+    #fws_62a237ed5e8f3 > div.col.span_12.light.left > div > div > div.wpb_wrapper > div:nth-child(2) > div > h1:nth-child(2),
+    #fws_62a237ed640a2 > div.col.span_12.light.left > div.vc_col-sm-4.about-fk-textbox.wpb_column.column_container.vc_column_container.col.no-extra-padding.instance-3 > div > div.wpb_wrapper > div:nth-child(1) > div > h1
+    {
+        font-size: 23.25px;
+        line-height: 30.5px;
+        margin-bottom: 6px;
+    }
+    #fws_62a237ed5e8f3 > div.col.span_12.light.left > div > div > div.wpb_wrapper > div:nth-child(3) > div,
+    #fws_62a237ed640a2 > div.col.span_12.light.left > div.vc_col-sm-4.about-fk-textbox.wpb_column.column_container.vc_column_container.col.no-extra-padding.instance-3 > div > div.wpb_wrapper > div:nth-child(2) > div > p
+    {
+        font-size: 14.25px;
+        line-height: 20.5px;
+    }
 }
 
 

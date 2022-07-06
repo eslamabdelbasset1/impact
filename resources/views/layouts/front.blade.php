@@ -175,7 +175,9 @@
 {{--                        <div class="sidebar-brand-icon">--}}
 {{--                            <img src="{{asset('images/logo/impact-logo.png')}}" alt="">--}}
 {{--                        </div>--}}
+                    <a href="{{url('/')}}" title="{{$setting->title}}">
                         <div class="sidebar-brand-text">Impact Studios</div>
+                    </a>
                 </div>
 {{--            </a>--}}
             <form action="{{ route('search') }}" class="header__search__venor" method="GET">

@@ -116,9 +116,9 @@ body::-webkit-scrollbar-thumb {
 @media screen and (max-width: 760px) {
     .header__logo img {
         width: 100% !important;
-        height: 70px !important;
+        height: 100px !important;
         display: block;
-        padding: 2px;
+        padding: 8px;
     }
 
     .header__logo .sidebar-brand-text{

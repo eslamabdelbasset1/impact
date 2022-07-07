@@ -158,13 +158,11 @@
                 <div id="collapseElements" class="collapse"  data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                     	<a class="collapse-item" href="{{ route('slider.index') }}?language=@php echo $lang->code; @endphp">Manage Home </a>
-
-
-                    	<a class="collapse-item" href="{{ route('service.index') }}?language=@php echo $lang->code; @endphp">Manage services</a>
-                    	<a class="collapse-item" href="{{ route('testimonial.index') }}?language=@php echo $lang->code; @endphp">Manage testimonials</a>
-                        <a class="collapse-item" href="{{ route('member.index') }}?language=@php echo $lang->code; @endphp">Manage members</a>
-                        <a class="collapse-item" href="{{ route('client.index') }}?language=@php echo $lang->code; @endphp">Manage clients</a>
-                        <a class="collapse-item" href="{{ route('pricing.index') }}?language=@php echo $lang->code; @endphp">Pricing tables</a>
+{{--                    	<a class="collapse-item" href="{{ route('service.index') }}?language=@php echo $lang->code; @endphp">Manage services</a>--}}
+{{--                    	<a class="collapse-item" href="{{ route('testimonial.index') }}?language=@php echo $lang->code; @endphp">Manage testimonials</a>--}}
+{{--                        <a class="collapse-item" href="{{ route('member.index') }}?language=@php echo $lang->code; @endphp">Manage members</a>--}}
+{{--                        <a class="collapse-item" href="{{ route('client.index') }}?language=@php echo $lang->code; @endphp">Manage clients</a>--}}
+                        <a class="collapse-item" href="{{ route('pricing.index') }}?language=@php echo $lang->code; @endphp">Services tables</a>
                     </div>
                 </div>
             </li>

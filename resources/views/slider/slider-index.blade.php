@@ -65,7 +65,7 @@
                     <thead>
                         <tr>
                             <th><input type="checkbox" id="options"></th>
-                            <th>{{clean( trans('niva-backend.photo') , array('Attr.EnableID' => true))}}</th>
+                            <th>{{clean( trans('niva-backend.video') , array('Attr.EnableID' => true))}}</th>
                             <th>{{clean( trans('niva-backend.heading_1') , array('Attr.EnableID' => true))}}</th>
                             <th>{{clean( trans('niva-backend.heading_2') , array('Attr.EnableID' => true))}}</th>
                             <th>{{clean( trans('niva-backend.button_text') , array('Attr.EnableID' => true))}}</th>
@@ -76,7 +76,7 @@
                     <tfoot>
                         <tr>
                             <th><input type="checkbox" id="options1"></th>
-                            <th>{{clean( trans('niva-backend.photo') , array('Attr.EnableID' => true))}}</th>
+                            <th>{{clean( trans('niva-backend.video') , array('Attr.EnableID' => true))}}</th>
                             <th>{{clean( trans('niva-backend.heading_1') , array('Attr.EnableID' => true))}}</th>
                             <th>{{clean( trans('niva-backend.heading_2') , array('Attr.EnableID' => true))}}</th>
                             <th>{{clean( trans('niva-backend.button_text') , array('Attr.EnableID' => true))}}</th>

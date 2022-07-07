@@ -63,7 +63,7 @@
                     <thead>
                         <tr>
                             <th><input type="checkbox" id="options"></th>
-                            <th scope="col">{{clean( trans('niva-backend.photo') , array('Attr.EnableID' => true))}}</th>
+                            <th scope="col">{{clean( trans('niva-backend.video') , array('Attr.EnableID' => true))}}</th>
                             <th scope="col">{{clean( trans('niva-backend.owner') , array('Attr.EnableID' => true))}}</th>
                             <th scope="col">{{clean( trans('niva-backend.title') , array('Attr.EnableID' => true))}}</th>
                             <th scope="col">{{clean( trans('niva-backend.category') , array('Attr.EnableID' => true))}}</th>
@@ -73,7 +73,7 @@
                     <tfoot>
                         <tr>
                             <th><input type="checkbox" id="options1"></th>
-                            <th scope="col">{{clean( trans('niva-backend.photo') , array('Attr.EnableID' => true))}}</th>
+                            <th scope="col">{{clean( trans('niva-backend.video') , array('Attr.EnableID' => true))}}</th>
                             <th scope="col">{{clean( trans('niva-backend.owner') , array('Attr.EnableID' => true))}}</th>
                             <th scope="col">{{clean( trans('niva-backend.title') , array('Attr.EnableID' => true))}}</th>
                             <th scope="col">{{clean( trans('niva-backend.category') , array('Attr.EnableID' => true))}}</th>

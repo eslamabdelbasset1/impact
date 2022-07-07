@@ -45,6 +45,7 @@ return [
     'city' => 'City',
     'phone' => 'Phone / Whatsapp',
     'photo' => 'Photo',
+    'video' => 'Video',
     'password' => 'Password',
     'change_password' => 'Change Password',
 

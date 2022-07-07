@@ -62,7 +62,7 @@
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <img class="img-fluid pb-4" width="100" height="100" src="{{$project->photo ? '/images/media/' . $project->photo->file : '/img/200x200.png'}}">
-                                                <p><strong>{{clean( trans('niva-backend.photo') , array('Attr.EnableID' => true))}}</strong></p>
+                                                <p><strong>{{clean( trans('niva-backend.video') , array('Attr.EnableID' => true))}}</strong></p>
                                                 <input type="file"  name="photo_id" class="form-control-file"  id="photo_id">
                                             </div>
                                         </div>

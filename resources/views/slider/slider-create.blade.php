@@ -106,7 +106,7 @@
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <strong>{{clean( trans('niva-backend.photo') , array('Attr.EnableID' => true))}}</strong>
+                                                <strong>{{clean( trans('niva-backend.video') , array('Attr.EnableID' => true))}}</strong>
                                                 <input type="file"  name="photo_id" class="form-control-file"  id="photo_id">
                                             </div>
                                         </div>

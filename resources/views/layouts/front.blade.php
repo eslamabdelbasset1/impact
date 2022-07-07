@@ -300,8 +300,6 @@
                                     </div>
                                 </div>
                             </div>
-
-{{--                            {{dd($headerfooter)}}--}}
                             <div class="col-lg-6 col-sm-6 col-12">
                                 <div class="footer-widget">
                                     <div class="widget widget_custom_html">

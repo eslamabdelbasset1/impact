@@ -143,26 +143,26 @@
 {{--            <div class="bar5"></div>--}}
 {{--        </div>--}}
 {{--    </div>--}}
-{{--    <div class="page-loader-wrapper">--}}
-{{--        <div class="loading">--}}
-{{--            <div class="loading-text">--}}
-{{--                <span class="loading-text-words">I</span>--}}
-{{--                <span class="loading-text-words">M</span>--}}
-{{--                <span class="loading-text-words">P</span>--}}
-{{--                <span class="loading-text-words">A</span>--}}
-{{--                <span class="loading-text-words">C</span>--}}
-{{--                <span class="loading-text-words">T</span>--}}
-{{--                <span class="loading-text-words"> </span>--}}
-{{--                <span class="loading-text-words">S</span>--}}
-{{--                <span class="loading-text-words">T</span>--}}
-{{--                <span class="loading-text-words">U</span>--}}
-{{--                <span class="loading-text-words">D</span>--}}
-{{--                <span class="loading-text-words">I</span>--}}
-{{--                <span class="loading-text-words">O</span>--}}
-{{--                <span class="loading-text-words">S</span>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </div>--}}
+    <div class="page-loader-wrapper">
+        <div class="loading">
+            <div class="loading-text">
+                <span class="loading-text-words">I</span>
+                <span class="loading-text-words">M</span>
+                <span class="loading-text-words">P</span>
+                <span class="loading-text-words">A</span>
+                <span class="loading-text-words">C</span>
+                <span class="loading-text-words">T</span>
+                <span class="loading-text-words"> </span>
+                <span class="loading-text-words">S</span>
+                <span class="loading-text-words">T</span>
+                <span class="loading-text-words">U</span>
+                <span class="loading-text-words">D</span>
+                <span class="loading-text-words">I</span>
+                <span class="loading-text-words">O</span>
+                <span class="loading-text-words">S</span>
+            </div>
+        </div>
+    </div>
 
     <header class="header">
         <div class="header__content__venor">
